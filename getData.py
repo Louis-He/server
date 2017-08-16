@@ -15,6 +15,7 @@ station3 = '56091,56080,56096,56065,56082,56094,56081,56067,56084,56095,56093,56
 station4 = '57339,57343,57345,57348,57359,57355,57370,57378,57388,57399,57395,57396,57368,57362,57385,57377,57358,57361,57363,57381,57387,57389,57398,57402,57401,57405,57414,57413,57426,57425,57439,57447,57417,57416,57407,57437,57409,57408,57445,57415,57411,57420,57432,57438,57453,57461,57458,57469,57477,57481,57482,57486,57496,57499,57498,57465,57485,57460,57462,57464,57466,57475,57483,57476,57489,57493,57492,57494,57491,57507,57503,57505,57506,57502,57508,57513,57511,57537,57540,57545,57517,57516,57510,57512,57514,57520,57525,57509,57523,57544,57541,57543,57562,57565,57574,57571,57577,57583,57598,57581,57558,57589,57554,57575,57566,57564,57573,57585,57582,57584,57590,57595,57586,57604,57600,57605,57606,57612,57608,57623,57634,57635,57640,57642,57646,57647,57603,57633,57614,57609,57636,57637,57643,57649,57625,57657,57655,57662,57669,57673,57674,57682,57698,57699,57663,57678,57696,57661,57658,57666,57671,57680,57679,57688,57694,57713,57710,57707,57719,57723,57734,57732,57722,57744,57729,57736,57740,57741,57717,57735,57712,57714,57720,57742,57718,57731,57708,57728,57739,57743,57749,57737,57738,57745,57754,57752,57763,57758,57769,57774,57768,57761,57773,57760,57771,57779,57796,57799,57798,57762,57780,57766,57767,57776,57772,57778,57777,57781,57786,57793,57792,57789,57803,57805,57806,57800,57807,57808,57809,57821,57827,57829,57841,57846,57844,57816,57828,57818,57837,57811,57813,57814,57822,57824,57825,57832,57834,57835,57839,57840,57842,57845,57853,57851,57857,57860,57865,57871,57872,57874,57881,57887,57891,57894,57895,57866,57868,57867,57886,57896,57876,57859,57870,57875,57899,57889,57882,57900,57907,57906,57902,57903,57908,57923,57914,57926,57941,57916,57927,57949,57905,57910,57909,57912,57913,57911,57915,57922,57921,57932,57936,57942,57948,57947,57956,57955,57957,57954,57972,57973,57964,57962,57975,57960,57985,57988,57992,57993,57989,57981,57996,57976,57990,57991,57971,57978,57994,57969,57966,57974,57965,57995,58001,58002,58007,58006,58005,58004,58003,58012,58021,58024,58032,58020,58027,58036,58034,58045,58047,58017,58016,58025,58022,58011,58015,58008,58013,58026,58030,58040,58048,58035,58038,58044,58049,58102,58100,58107,58101,58104,58118,58126,58122,58125,58128,58130,58131,58139,58148,58146,58117,58147,58129,58109,58108,58114,58111,58116,58113,58135,58132,58138,58127,58141,58140,58143,58150,58158,58154,58202,58205,58203,58208,58221,58236,58243,58240,58242,58238,58244,58241,58212,58210,58207,58214,58224,58215,58235,58223,58225,58230,58220,58247,58222,58246,58245,58234,58249,58255,58251,58248,58250,58257,58268,58269,58254,58264,58259,58306,58301,58319,58316,58323,58327,58329,58341,58344,58340,58346,58317,58320,58334,58342,58349,58311,58314,58330,58326,58321,58335'
 station5 = '58331,58337,58339,58343,58338,58345,58336,58353,58352,58351,58354,58356,58360,58359,58377,58366,58367,58370,58362,58361,58365,58369,58404,58401,58409,58414,58421,58420,58427,58432,58433,58436,58442,58446,58448,58419,58418,58416,58417,58428,58407,58437,58402,58408,58415,58424,58429,58426,58431,58435,58441,58438,58443,58449,58455,58456,58453,58451,58454,58457,58452,58450,58472,58468,58467,58458,58461,58463,58460,58462,58464,58459,58484,58507,58506,58502,58501,58500,58503,58530,58529,58542,58548,58544,58527,58509,58512,58510,58514,58508,58517,58520,58537,58534,58543,58523,58549,58546,58547,58553,58556,58555,58557,58550,58566,58568,58567,58558,58563,58559,58565,58562,58570,58605,58606,58600,58608,58620,58622,58632,58624,58627,58637,58647,58634,58618,58619,58616,58615,58609,58633,58601,58644,58612,58614,58625,58642,58635,58623,58631,58646,58602,58643,58626,58629,58654,58652,58657,58656,58659,58664,58693,58665,58667,58658,58706,58705,58701,58704,58713,58734,58731,58724,58744,58737,58745,58746,58710,58718,58712,58707,58715,58719,58714,58736,58730,58725,58735,58742,58747,58749,58748,58754,58760,58752,58750,58806,58819,58813,58821,58834,58837,58823,58839,58843,58848,58818,58804,58846,58836,58844,58814,58820,58824,58826,58822,58845,58828,58847,58906,58907,58903,58905,58911,58921,58923,58929,58935,58932,58936,58938,58946,58918,58927,58917,58912,58944,58928,58926,58933,58934,58941,58942,59007,59004,59001,59022,59025,59034,59031,59038,59045,59046,59017,59015,59027,59037,59012,59023,59021,59033,59041,59047,59053,59052,59057,59055,59051,59063,59061,59075,59071,59091,59092,59088,59093,59096,59094,59058,59064,59065,59072,59059,59074,59090,59082,59081,59087,59099,59097,59107,59106,59102,59113,59114,59129,59132,59137,59126,59125,59134,59109,59122,59116,59130,59127,59124,59133,59131,59205,59211,59215,59209,59229,59230,59228,59237,59242,59241,59238,59235,59213,59218,59224,59227,59246,59249,59256,59255,59254,59265,59269,59280,59279,59284,59285,59288,59293,59294,59266,59268,59264,59276,59270,59271,59290,59289,59297,59306,59304,59303,59313,59318,59321,59320,59324,59316,59315,59312,59310,59317,59319,59322,59314,59419,59426,59421,59435,59427,59441,59417,59431,59425,59429,59446,59449,59448,59432,59451,59456,59452,59453,59457,59454,59475,59478,59493,59492,59476,59477,59462,59469,59471,59470,59485,59488,59487,59502,59501,59500,59640,59632,59644,59631,59626,59635,59654,59650,59658,59656,59663,59653,59655,59659,59664,59754,59750,59758,59838,59845,59842,59849,59848,59843,59847,59856,59851,59854,59855,59940,59941,59945,59954,59951'
 
+type = -1
 station = []
 code = []
 codeinfile = []
@@ -71,6 +72,11 @@ def readinfofile():
     author = input("author(can remain blank):");
     if author == '':
         author = '绘图：华师大二附中气象服务中心  数据：中央气象台'
+    global type
+    type = input("output type(0 for realtime, 1 for all):");
+    type = type
+    if type == '':
+        type = 0
     # ============================================# read data
     file = "/Users/hsw/Desktop/stations.txt"
     fh = open(file)
@@ -167,11 +173,13 @@ for i, j, k, l, m, n, p in zip(x, y, T, station, province, code, codeinfile):
         cs6 = map.scatter(i, j, s=15, marker='o', color='#7F0000')
     if l == '上海' or l == '北京' or l == '重庆' or l == '石家庄' or l == '郑州' or l == '武汉' or l == '长沙' or l == '南京' \
             or (l == '南昌' and m == '江西省') or l == '沈阳' or l == '长春' or l == '哈尔滨' or l == '西安' or l == '太原' or l == '济南' or l == '成都' \
-            or l == '西宁' or l == '合肥' or l == '海口' or l == '广州' or l == '贵阳' or l == '兰州' or l == '昆明' \
+            or l == '西宁' or l == '海口' or l == '广州' or l == '贵阳' or l == '兰州' or l == '昆明' \
             or l == '拉萨' or l == '银川' or l == '南宁' or l == '乌鲁木齐' or l == '呼和浩特':
         plt.text(i + 20, j - 20, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
     if l == '天津' or l == '杭州':
         plt.text(i + 20, j - 100020, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
+    if l == '合肥':
+        plt.text(i - 100000, j - 20, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
     #print('Original_code:', p, 'Data:', n, l, '实时气温:', str(k), '°')
     f = open("/Users/hsw/Desktop/realTdata.txt", "a+")
     f.write('Original_code:'+ p + ' Data:' + n + ' ' + l + ' 实时气温:' + str(k) + '°\n')
@@ -214,518 +222,518 @@ plt.title(title)
 print('实时气温分布图绘制完成！')
 plt.savefig(save, dpi=100)
 
-# ============================================
-# ============================================
-# ============================================
-# ============================================
-# ============================================DRAW SECOND PLOT
-# ============================================
-# ============================================
-# ============================================
-# ============================================initialize the plot
-plt.figure(figsize=(13, 9), dpi=80)
-axes = plt.subplot(111)
-# set up map projection with
-# use low resolution coastlines.
-map = Basemap(llcrnrlon=70, llcrnrlat=15, urcrnrlon=135, urcrnrlat=55, \
-              rsphere=(6378137.00, 6356752.3142), \
-              resolution='l', projection='merc', \
-              lat_0=40., lon_0=-20., lat_ts=20.)
-# draw coastlines, country boundaries, fill continents.
-map.drawcoastlines(linewidth=0.25)
-map.drawcountries(linewidth=0.25)
-# draw the edge of the map projection region (the projection limb)
-map.drawmapboundary(fill_color='#87CEFA')#689CD2
-# draw lat/lon grid lines every 30 degrees.
 
-#map.drawmeridians(np.arange(0, 360, 10))
-map.drawmeridians(np.arange(0, 360, 10),labels=[0,0,0,1],fontsize=10)
-#map.drawparallels(np.arange(-90, 90, 10))
-map.drawparallels(np.arange(-90, 90, 10),labels=[1,0,0,0],fontsize=10)
+if type == 1:
+    # ============================================
+    # ============================================
+    # ============================================
+    # ============================================
+    # ============================================DRAW SECOND PLOT
+    # ============================================
+    # ============================================
+    # ============================================
+    # ============================================initialize the plot
+    plt.figure(figsize=(13, 9), dpi=80)
+    axes = plt.subplot(111)
+    # set up map projection with
+    # use low resolution coastlines.
+    map = Basemap(llcrnrlon=70, llcrnrlat=15, urcrnrlon=135, urcrnrlat=55, \
+                  rsphere=(6378137.00, 6356752.3142), \
+                  resolution='l', projection='merc', \
+                  lat_0=40., lon_0=-20., lat_ts=20.)
+    # draw coastlines, country boundaries, fill continents.
+    map.drawcoastlines(linewidth=0.25)
+    map.drawcountries(linewidth=0.25)
+    # draw the edge of the map projection region (the projection limb)
+    map.drawmapboundary(fill_color='#87CEFA')#689CD2
+    # draw lat/lon grid lines every 30 degrees.
 
-# Fill continent wit a different color
-map.fillcontinents(color='#FFFFFF', lake_color='#87CEFA', zorder=0)
+    #map.drawmeridians(np.arange(0, 360, 10))
+    map.drawmeridians(np.arange(0, 360, 10),labels=[0,0,0,1],fontsize=10)
+    #map.drawparallels(np.arange(-90, 90, 10))
+    map.drawparallels(np.arange(-90, 90, 10),labels=[1,0,0,0],fontsize=10)
 
-# ============================================draw the stations and data
-# compute native map projection coordinates of lat/lon grid.
-x, y = map(lons, lats)
-max_T = max(day1day)
-# Plot each city in a loop.
-# Set some parameters
-size_factor = 100.0
-x_offset = 20.0
-y_offset = -20.0
-rotation = 0
-temp=0
+    # Fill continent wit a different color
+    map.fillcontinents(color='#FFFFFF', lake_color='#87CEFA', zorder=0)
 
-f = open("/Users/hsw/Desktop/forecastTdata.txt", "w+")
-f.close()
-#draw station point
-for i, j, k, l, m, n, p in zip(x, y, day1day, station, province, code, codeinfile):
-    temp = temp+1
-    if k <= -10.0:
-        cs1 = map.scatter(i, j, s=15, marker='o', color='#00008F')
-    if -10 < k and k <= -5:
-        cs2 = map.scatter(i, j, s=15, marker='o', color='#00009F')
-    if -5 < k and k <= 0:
-        cs3 = map.scatter(i, j, s=15, marker='o', color='#0000FF')
-    if 0 < k and k <= 5:
-        cs4 = map.scatter(i, j, s=15, marker='o', color='#006FFF')
-    if 5 < k and k <= 10:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#00BFFF')
-    if 10 <= k and k <= 15:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#00FFFF')
-    if 15 <= k and k <= 20:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#4FFFAF')
-    if 20 <= k and k <= 25:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#7FF77F')
-    if 25 <= k and k <= 30:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#FFFF00')
-    if 30 <= k and k <= 35:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#FFBF00')
-    if 35 <= k and k <= 40:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#FF6F00')
-    if 40 <= k and k <= 45:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#FF0000')
-    if 45 < k and k != 9999:
-        cs6 = map.scatter(i, j, s=15, marker='o', color='#7F0000')
-    if l == '上海' or l == '北京' or l == '重庆' or l == '石家庄' or l == '郑州' or l == '武汉' or l == '长沙' or l == '南京' \
-            or (l == '南昌' and m == '江西省') or l == '沈阳' or l == '长春' or l == '哈尔滨' or l == '西安' or l == '太原' or l == '济南' or l == '成都' \
-            or l == '西宁' or l == '合肥' or l == '海口' or l == '广州' or l == '贵阳' or l == '兰州' or l == '昆明' \
-            or l == '拉萨' or l == '银川' or l == '南宁' or l == '乌鲁木齐' or l == '呼和浩特':
-        plt.text(i + 20, j - 20, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
-    if l == '天津' or l == '杭州':
-        plt.text(i + 20, j - 100020, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
-    #print('Original_code:', p, 'Data:', n, l, '实时气温:', str(k), '°')
-    f = open("/Users/hsw/Desktop/forecastTdata.txt", "a+")
-    f.write('Original_code:'+ p + ' Data:' + date1 + ' 预报最高气温:' + str(k) + '°\n')
+    # ============================================draw the stations and data
+    # compute native map projection coordinates of lat/lon grid.
+    x, y = map(lons, lats)
+    max_T = max(day1day)
+    # Plot each city in a loop.
+    # Set some parameters
+    size_factor = 100.0
+    x_offset = 20.0
+    y_offset = -20.0
+    rotation = 0
+    temp=0
+
+    f = open("/Users/hsw/Desktop/forecastTdata.txt", "w+")
     f.close()
+    #draw station point
+    for i, j, k, l, m, n, p in zip(x, y, day1day, station, province, code, codeinfile):
+        temp = temp+1
+        if k <= -10.0:
+            cs1 = map.scatter(i, j, s=15, marker='o', color='#00008F')
+        if -10 < k and k <= -5:
+            cs2 = map.scatter(i, j, s=15, marker='o', color='#00009F')
+        if -5 < k and k <= 0:
+            cs3 = map.scatter(i, j, s=15, marker='o', color='#0000FF')
+        if 0 < k and k <= 5:
+            cs4 = map.scatter(i, j, s=15, marker='o', color='#006FFF')
+        if 5 < k and k <= 10:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#00BFFF')
+        if 10 <= k and k <= 15:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#00FFFF')
+        if 15 <= k and k <= 20:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#4FFFAF')
+        if 20 <= k and k <= 25:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#7FF77F')
+        if 25 <= k and k <= 30:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#FFFF00')
+        if 30 <= k and k <= 35:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#FFBF00')
+        if 35 <= k and k <= 40:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#FF6F00')
+        if 40 <= k and k <= 45:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#FF0000')
+        if 45 < k and k != 9999:
+            cs6 = map.scatter(i, j, s=15, marker='o', color='#7F0000')
+        if l == '上海' or l == '北京' or l == '重庆' or l == '石家庄' or l == '郑州' or l == '武汉' or l == '长沙' or l == '南京' \
+                or (l == '南昌' and m == '江西省') or l == '沈阳' or l == '长春' or l == '哈尔滨' or l == '西安' or l == '太原' or l == '济南' or l == '成都' \
+                or l == '西宁' or l == '合肥' or l == '海口' or l == '广州' or l == '贵阳' or l == '兰州' or l == '昆明' \
+                or l == '拉萨' or l == '银川' or l == '南宁' or l == '乌鲁木齐' or l == '呼和浩特':
+            plt.text(i + 20, j - 20, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
+        if l == '天津' or l == '杭州':
+            plt.text(i + 20, j - 100020, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
+        #print('Original_code:', p, 'Data:', n, l, '实时气温:', str(k), '°')
+        f = open("/Users/hsw/Desktop/forecastTdata.txt", "a+")
+        f.write('Original_code:'+ p + ' Data:' + date1 + ' 预报最高气温:' + str(k) + '°\n')
+        f.close()
 
 
-title = date1 + '全国最高气温预报图\n' + '预报时间:' + forecastupdatetime + '\n' + author
+    title = date1 + '全国最高气温预报图\n' + '预报时间:' + forecastupdatetime + '\n' + author
 
-# ============================================#define legends
-a = mlines.Line2D([], [], color='#7F0000', marker='o',
-                          markersize=5, label='>45°C',ls='')
-b = mlines.Line2D([], [], color='#FF0000', marker='o',
-                          markersize=5, label='40~45°C',ls='')
-c = mlines.Line2D([], [], color='#FF6F00', marker='o',
-                          markersize=5, label='35~40°C',ls='')
-d = mlines.Line2D([], [], color='#FFBF00', marker='o',
-                          markersize=5, label='30~35°C',ls='')
-e = mlines.Line2D([], [], color='#FFFF00', marker='o',
-                          markersize=5, label='25~30°C',ls='')
-f = mlines.Line2D([], [], color='#7FF77F', marker='o',
-                          markersize=5, label='20~25°C',ls='')
-g = mlines.Line2D([], [], color='#4FFFAF', marker='o',
-                          markersize=5, label='15~20°C',ls='')
-h = mlines.Line2D([], [], color='#00FFFF', marker='o',
-                          markersize=5, label='10~15°C',ls='')
-i = mlines.Line2D([], [], color='#00BFFF', marker='o',
-                          markersize=5, label='5~10°C',ls='')
-j = mlines.Line2D([], [], color='#006FFF', marker='o',
-                          markersize=5, label='0~5°C',ls='')
-k = mlines.Line2D([], [], color='#0000FF', marker='o',
-                          markersize=5, label='-5~0°C',ls='')
-l = mlines.Line2D([], [], color='#00009F', marker='o',
-                          markersize=5, label='-10~-5°C',ls='')
-m = mlines.Line2D([], [], color='#00008F', marker='o',
-                          markersize=5, label='<-10°C',ls='')
-plt.legend(handles=[a, b, c, d, e, f, g, h, i, j, k, l, m])
-plt.title(title)
+    # ============================================#define legends
+    a = mlines.Line2D([], [], color='#7F0000', marker='o',
+                              markersize=5, label='>45°C',ls='')
+    b = mlines.Line2D([], [], color='#FF0000', marker='o',
+                              markersize=5, label='40~45°C',ls='')
+    c = mlines.Line2D([], [], color='#FF6F00', marker='o',
+                              markersize=5, label='35~40°C',ls='')
+    d = mlines.Line2D([], [], color='#FFBF00', marker='o',
+                              markersize=5, label='30~35°C',ls='')
+    e = mlines.Line2D([], [], color='#FFFF00', marker='o',
+                              markersize=5, label='25~30°C',ls='')
+    f = mlines.Line2D([], [], color='#7FF77F', marker='o',
+                              markersize=5, label='20~25°C',ls='')
+    g = mlines.Line2D([], [], color='#4FFFAF', marker='o',
+                              markersize=5, label='15~20°C',ls='')
+    h = mlines.Line2D([], [], color='#00FFFF', marker='o',
+                              markersize=5, label='10~15°C',ls='')
+    i = mlines.Line2D([], [], color='#00BFFF', marker='o',
+                              markersize=5, label='5~10°C',ls='')
+    j = mlines.Line2D([], [], color='#006FFF', marker='o',
+                              markersize=5, label='0~5°C',ls='')
+    k = mlines.Line2D([], [], color='#0000FF', marker='o',
+                              markersize=5, label='-5~0°C',ls='')
+    l = mlines.Line2D([], [], color='#00009F', marker='o',
+                              markersize=5, label='-10~-5°C',ls='')
+    m = mlines.Line2D([], [], color='#00008F', marker='o',
+                              markersize=5, label='<-10°C',ls='')
+    plt.legend(handles=[a, b, c, d, e, f, g, h, i, j, k, l, m])
+    plt.title(title)
 
-# plt.show()
-plt.savefig(save2, dpi=100)
-print('最高气温分布图绘制完成！1/2')
+    # plt.show()
+    plt.savefig(save2, dpi=100)
+    print('最高气温分布图绘制完成！1/2')
 
-# ============================================
-# ============================================
-# ============================================
-# ============================================
-# ============================================DRAW THIRD PLOT
-# ============================================
-# ============================================
-# ============================================
-# ============================================initialize the plot
-plt.figure(figsize=(13, 9), dpi=80)
-axes = plt.subplot(111)
-# set up map projection with
-# use low resolution coastlines.
-map = Basemap(llcrnrlon=70, llcrnrlat=15, urcrnrlon=135, urcrnrlat=55, \
-              rsphere=(6378137.00, 6356752.3142), \
-              resolution='l', projection='merc', \
-              lat_0=40., lon_0=-20., lat_ts=20.)
-# draw coastlines, country boundaries, fill continents.
-map.drawcoastlines(linewidth=0.25)
-map.drawcountries(linewidth=0.25)
-# draw the edge of the map projection region (the projection limb)
-map.drawmapboundary(fill_color='#87CEFA')#689CD2
-# draw lat/lon grid lines every 30 degrees.
+    # ============================================
+    # ============================================
+    # ============================================
+    # ============================================
+    # ============================================DRAW THIRD PLOT
+    # ============================================
+    # ============================================
+    # ============================================
+    # ============================================initialize the plot
+    plt.figure(figsize=(13, 9), dpi=80)
+    axes = plt.subplot(111)
+    # set up map projection with
+    # use low resolution coastlines.
+    map = Basemap(llcrnrlon=70, llcrnrlat=15, urcrnrlon=135, urcrnrlat=55, \
+                  rsphere=(6378137.00, 6356752.3142), \
+                  resolution='l', projection='merc', \
+                  lat_0=40., lon_0=-20., lat_ts=20.)
+    # draw coastlines, country boundaries, fill continents.
+    map.drawcoastlines(linewidth=0.25)
+    map.drawcountries(linewidth=0.25)
+    # draw the edge of the map projection region (the projection limb)
+    map.drawmapboundary(fill_color='#87CEFA')#689CD2
+    # draw lat/lon grid lines every 30 degrees.
 
-#map.drawmeridians(np.arange(0, 360, 10))
-map.drawmeridians(np.arange(0, 360, 10),labels=[0,0,0,1],fontsize=10)
-#map.drawparallels(np.arange(-90, 90, 10))
-map.drawparallels(np.arange(-90, 90, 10),labels=[1,0,0,0],fontsize=10)
+    #map.drawmeridians(np.arange(0, 360, 10))
+    map.drawmeridians(np.arange(0, 360, 10),labels=[0,0,0,1],fontsize=10)
+    #map.drawparallels(np.arange(-90, 90, 10))
+    map.drawparallels(np.arange(-90, 90, 10),labels=[1,0,0,0],fontsize=10)
 
-# Fill continent wit a different color
-map.fillcontinents(color='#FFFFFF', lake_color='#87CEFA', zorder=0)
+    # Fill continent wit a different color
+    map.fillcontinents(color='#FFFFFF', lake_color='#87CEFA', zorder=0)
 
-# ============================================draw the stations and data
-# compute native map projection coordinates of lat/lon grid.
-x, y = map(lons, lats)
-max_T = max(day1day)
-# Plot each city in a loop.
-# Set some parameters
-size_factor = 100.0
-x_offset = 20.0
-y_offset = -20.0
-rotation = 0
-temp=0
+    # ============================================draw the stations and data
+    # compute native map projection coordinates of lat/lon grid.
+    x, y = map(lons, lats)
+    max_T = max(day1day)
+    # Plot each city in a loop.
+    # Set some parameters
+    size_factor = 100.0
+    x_offset = 20.0
+    y_offset = -20.0
+    rotation = 0
+    temp=0
 
-#draw station point
-for i, j, k, l, m, n, p in zip(x, y, day2day, station, province, code, codeinfile):
-    temp = temp+1
-    if k <= -10.0:
-        cs1 = map.scatter(i, j, s=15, marker='o', color='#00008F')
-    if -10 < k and k <= -5:
-        cs2 = map.scatter(i, j, s=15, marker='o', color='#00009F')
-    if -5 < k and k <= 0:
-        cs3 = map.scatter(i, j, s=15, marker='o', color='#0000FF')
-    if 0 < k and k <= 5:
-        cs4 = map.scatter(i, j, s=15, marker='o', color='#006FFF')
-    if 5 < k and k <= 10:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#00BFFF')
-    if 10 <= k and k <= 15:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#00FFFF')
-    if 15 <= k and k <= 20:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#4FFFAF')
-    if 20 <= k and k <= 25:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#7FF77F')
-    if 25 <= k and k <= 30:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#FFFF00')
-    if 30 <= k and k <= 35:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#FFBF00')
-    if 35 <= k and k <= 40:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#FF6F00')
-    if 40 <= k and k <= 45:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#FF0000')
-    if 45 < k and k != 9999:
-        cs6 = map.scatter(i, j, s=15, marker='o', color='#7F0000')
-    if l == '上海' or l == '北京' or l == '重庆' or l == '石家庄' or l == '郑州' or l == '武汉' or l == '长沙' or l == '南京' \
-            or (l == '南昌' and m == '江西省') or l == '沈阳' or l == '长春' or l == '哈尔滨' or l == '西安' or l == '太原' or l == '济南' or l == '成都' \
-            or l == '西宁' or l == '合肥' or l == '海口' or l == '广州' or l == '贵阳' or l == '兰州' or l == '昆明' \
-            or l == '拉萨' or l == '银川' or l == '南宁' or l == '乌鲁木齐' or l == '呼和浩特':
-        plt.text(i + 20, j - 20, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
-    if l == '天津' or l == '杭州':
-        plt.text(i + 20, j - 100020, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
-    #print('Original_code:', p, 'Data:', n, l, '实时气温:', str(k), '°')
-    f = open("/Users/hsw/Desktop/forecastTdata.txt", "a+")
-    f.write('Original_code:'+ p + ' Data:' + date2 + ' 预报最高气温:' + str(k) + '°\n')
-    f.close()
-
-
-title = date2 + '全国最高气温预报图\n' + '预报时间:' + forecastupdatetime + '\n' + author
-
-# ============================================#define legends
-a = mlines.Line2D([], [], color='#7F0000', marker='o',
-                          markersize=5, label='>45°C',ls='')
-b = mlines.Line2D([], [], color='#FF0000', marker='o',
-                          markersize=5, label='40~45°C',ls='')
-c = mlines.Line2D([], [], color='#FF6F00', marker='o',
-                          markersize=5, label='35~40°C',ls='')
-d = mlines.Line2D([], [], color='#FFBF00', marker='o',
-                          markersize=5, label='30~35°C',ls='')
-e = mlines.Line2D([], [], color='#FFFF00', marker='o',
-                          markersize=5, label='25~30°C',ls='')
-f = mlines.Line2D([], [], color='#7FF77F', marker='o',
-                          markersize=5, label='20~25°C',ls='')
-g = mlines.Line2D([], [], color='#4FFFAF', marker='o',
-                          markersize=5, label='15~20°C',ls='')
-h = mlines.Line2D([], [], color='#00FFFF', marker='o',
-                          markersize=5, label='10~15°C',ls='')
-i = mlines.Line2D([], [], color='#00BFFF', marker='o',
-                          markersize=5, label='5~10°C',ls='')
-j = mlines.Line2D([], [], color='#006FFF', marker='o',
-                          markersize=5, label='0~5°C',ls='')
-k = mlines.Line2D([], [], color='#0000FF', marker='o',
-                          markersize=5, label='-5~0°C',ls='')
-l = mlines.Line2D([], [], color='#00009F', marker='o',
-                          markersize=5, label='-10~-5°C',ls='')
-m = mlines.Line2D([], [], color='#00008F', marker='o',
-                          markersize=5, label='<-10°C',ls='')
-plt.legend(handles=[a, b, c, d, e, f, g, h, i, j, k, l, m])
-plt.title(title)
-
-# plt.show()
-plt.savefig(save3, dpi=100)
-print('最高气温分布图绘制完成！2/2')
+    #draw station point
+    for i, j, k, l, m, n, p in zip(x, y, day2day, station, province, code, codeinfile):
+        temp = temp+1
+        if k <= -10.0:
+            cs1 = map.scatter(i, j, s=15, marker='o', color='#00008F')
+        if -10 < k and k <= -5:
+            cs2 = map.scatter(i, j, s=15, marker='o', color='#00009F')
+        if -5 < k and k <= 0:
+            cs3 = map.scatter(i, j, s=15, marker='o', color='#0000FF')
+        if 0 < k and k <= 5:
+            cs4 = map.scatter(i, j, s=15, marker='o', color='#006FFF')
+        if 5 < k and k <= 10:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#00BFFF')
+        if 10 <= k and k <= 15:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#00FFFF')
+        if 15 <= k and k <= 20:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#4FFFAF')
+        if 20 <= k and k <= 25:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#7FF77F')
+        if 25 <= k and k <= 30:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#FFFF00')
+        if 30 <= k and k <= 35:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#FFBF00')
+        if 35 <= k and k <= 40:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#FF6F00')
+        if 40 <= k and k <= 45:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#FF0000')
+        if 45 < k and k != 9999:
+            cs6 = map.scatter(i, j, s=15, marker='o', color='#7F0000')
+        if l == '上海' or l == '北京' or l == '重庆' or l == '石家庄' or l == '郑州' or l == '武汉' or l == '长沙' or l == '南京' \
+                or (l == '南昌' and m == '江西省') or l == '沈阳' or l == '长春' or l == '哈尔滨' or l == '西安' or l == '太原' or l == '济南' or l == '成都' \
+                or l == '西宁' or l == '合肥' or l == '海口' or l == '广州' or l == '贵阳' or l == '兰州' or l == '昆明' \
+                or l == '拉萨' or l == '银川' or l == '南宁' or l == '乌鲁木齐' or l == '呼和浩特':
+            plt.text(i + 20, j - 20, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
+        if l == '天津' or l == '杭州':
+            plt.text(i + 20, j - 100020, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
+        #print('Original_code:', p, 'Data:', n, l, '实时气温:', str(k), '°')
+        f = open("/Users/hsw/Desktop/forecastTdata.txt", "a+")
+        f.write('Original_code:'+ p + ' Data:' + date2 + ' 预报最高气温:' + str(k) + '°\n')
+        f.close()
 
 
-# ============================================
-# ============================================
-# ============================================
-# ============================================
-# ============================================DRAW FORTH PLOT
-# ============================================
-# ============================================
-# ============================================
-# ============================================initialize the plot
-plt.figure(figsize=(13, 9), dpi=80)
-axes = plt.subplot(111)
-# set up map projection with
-# use low resolution coastlines.
-map = Basemap(llcrnrlon=70, llcrnrlat=15, urcrnrlon=135, urcrnrlat=55, \
-              rsphere=(6378137.00, 6356752.3142), \
-              resolution='l', projection='merc', \
-              lat_0=40., lon_0=-20., lat_ts=20.)
-# draw coastlines, country boundaries, fill continents.
-map.drawcoastlines(linewidth=0.25)
-map.drawcountries(linewidth=0.25)
-# draw the edge of the map projection region (the projection limb)
-map.drawmapboundary(fill_color='#87CEFA')#689CD2
-# draw lat/lon grid lines every 30 degrees.
+    title = date2 + '全国最高气温预报图\n' + '预报时间:' + forecastupdatetime + '\n' + author
 
-#map.drawmeridians(np.arange(0, 360, 10))
-map.drawmeridians(np.arange(0, 360, 10),labels=[0,0,0,1],fontsize=10)
-#map.drawparallels(np.arange(-90, 90, 10))
-map.drawparallels(np.arange(-90, 90, 10),labels=[1,0,0,0],fontsize=10)
+    # ============================================#define legends
+    a = mlines.Line2D([], [], color='#7F0000', marker='o',
+                              markersize=5, label='>45°C',ls='')
+    b = mlines.Line2D([], [], color='#FF0000', marker='o',
+                              markersize=5, label='40~45°C',ls='')
+    c = mlines.Line2D([], [], color='#FF6F00', marker='o',
+                              markersize=5, label='35~40°C',ls='')
+    d = mlines.Line2D([], [], color='#FFBF00', marker='o',
+                              markersize=5, label='30~35°C',ls='')
+    e = mlines.Line2D([], [], color='#FFFF00', marker='o',
+                              markersize=5, label='25~30°C',ls='')
+    f = mlines.Line2D([], [], color='#7FF77F', marker='o',
+                              markersize=5, label='20~25°C',ls='')
+    g = mlines.Line2D([], [], color='#4FFFAF', marker='o',
+                              markersize=5, label='15~20°C',ls='')
+    h = mlines.Line2D([], [], color='#00FFFF', marker='o',
+                              markersize=5, label='10~15°C',ls='')
+    i = mlines.Line2D([], [], color='#00BFFF', marker='o',
+                              markersize=5, label='5~10°C',ls='')
+    j = mlines.Line2D([], [], color='#006FFF', marker='o',
+                              markersize=5, label='0~5°C',ls='')
+    k = mlines.Line2D([], [], color='#0000FF', marker='o',
+                              markersize=5, label='-5~0°C',ls='')
+    l = mlines.Line2D([], [], color='#00009F', marker='o',
+                              markersize=5, label='-10~-5°C',ls='')
+    m = mlines.Line2D([], [], color='#00008F', marker='o',
+                              markersize=5, label='<-10°C',ls='')
+    plt.legend(handles=[a, b, c, d, e, f, g, h, i, j, k, l, m])
+    plt.title(title)
 
-# Fill continent wit a different color
-map.fillcontinents(color='#FFFFFF', lake_color='#87CEFA', zorder=0)
-
-# ============================================draw the stations and data
-# compute native map projection coordinates of lat/lon grid.
-x, y = map(lons, lats)
-# Plot each city in a loop.
-# Set some parameters
-size_factor = 100.0
-x_offset = 20.0
-y_offset = -20.0
-rotation = 0
-temp=0
-
-#draw station point
-for i, j, k, l, m, n, p in zip(x, y, day1dayweather, station, province, code, codeinfile):
-    temp = temp+1
-    if k == 0:
-        cs1 = map.scatter(i, j, s=15, marker='o', color='#FF7F00')
-    if k == 1:
-        cs2 = map.scatter(i, j, s=15, marker='o', color='#FFE600')
-    if k == 2:
-        cs3 = map.scatter(i, j, s=15, marker='o', color='#969696')
-    if k == 4:
-        cs4 = map.scatter(i, j, s=15, marker='x', color='#FA0000')
-    if k == 6:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#FF69B4')
-    if k == 3 or k == 7:
-        cs6 = map.scatter(i, j, s=15, marker='o', color='#96F278')
-    if k == 8 or k == 21 or k == 32:
-        cs7 = map.scatter(i, j, s=15, marker='o', color='#56A708')
-    if k == 9 or k == 22:
-        cs8 = map.scatter(i, j, s=15, marker='o', color='#62B8FB')
-    if k == 10 or k == 19 or k == 23:
-        cs9 = map.scatter(i, j, s=15, marker='o', color='#244AFC')
-    if k == 11 or k == 24:
-        cs10 = map.scatter(i, j, s=15, marker='o', color='#E45EFB')
-    if k == 12 or k ==25:
-        cs11 = map.scatter(i, j, s=15, marker='o', color='#8B0000')
-    if k == 5 or k == 13 or k ==14:
-        cs12 = map.scatter(i, j, s=15, marker='o', color='#D3D3D3')
-    if k == 15 or k == 26 or k == 33:
-        cs13 = map.scatter(i, j, s=15, marker='o', color='#A9A9A9')
-    if k == 16 or k == 27:
-        cs14 = map.scatter(i, j, s=15, marker='o', color='#808080')
-    if k == 17 or k == 28:
-        cs15 = map.scatter(i, j, s=15, marker='o', color='#000000')
-    if k == 18 or k == 20 or k == 29 or k == 30 or k == 31:
-        cs15 = map.scatter(i, j, s=15, marker='x', color='#FFD700')
-    if l == '上海' or l == '北京' or l == '重庆' or l == '石家庄' or l == '郑州' or l == '武汉' or l == '长沙' or l == '南京' \
-            or (l == '南昌' and m == '江西省') or l == '沈阳' or l == '长春' or l == '哈尔滨' or l == '西安' or l == '太原' or l == '济南' or l == '成都' \
-            or l == '西宁' or l == '合肥' or l == '海口' or l == '广州' or l == '贵阳' or l == '兰州' or l == '昆明' \
-            or l == '拉萨' or l == '银川' or l == '南宁' or l == '乌鲁木齐' or l == '呼和浩特':
-        plt.text(i + 20, j - 20, l, rotation=rotation, fontsize=10)
-    if l == '天津' or l == '杭州':
-        plt.text(i + 20, j - 100020, l, rotation=rotation, fontsize=10)
-    #print('Original_code:', p, 'Data:', n, l, '实时气温:', str(k), '°')
-    f = open("/Users/hsw/Desktop/forecastTdata.txt", "a+")
-    f.write('Original_code:'+ p + ' Data:' + date1 + ' 预报天气现象代码:' + str(k) + '°\n')
-    f.close()
+    # plt.show()
+    plt.savefig(save3, dpi=100)
+    print('最高气温分布图绘制完成！2/2')
 
 
-title = date1 + '白天全国天气现象预报图\n' + '预报时间:' + forecastupdatetime + '\n' + author
+    # ============================================
+    # ============================================
+    # ============================================
+    # ============================================
+    # ============================================DRAW FORTH PLOT
+    # ============================================
+    # ============================================
+    # ============================================
+    # ============================================initialize the plot
+    plt.figure(figsize=(13, 9), dpi=80)
+    axes = plt.subplot(111)
+    # set up map projection with
+    # use low resolution coastlines.
+    map = Basemap(llcrnrlon=70, llcrnrlat=15, urcrnrlon=135, urcrnrlat=55, \
+                  rsphere=(6378137.00, 6356752.3142), \
+                  resolution='l', projection='merc', \
+                  lat_0=40., lon_0=-20., lat_ts=20.)
+    # draw coastlines, country boundaries, fill continents.
+    map.drawcoastlines(linewidth=0.25)
+    map.drawcountries(linewidth=0.25)
+    # draw the edge of the map projection region (the projection limb)
+    map.drawmapboundary(fill_color='#87CEFA')#689CD2
+    # draw lat/lon grid lines every 30 degrees.
 
-# ============================================#define legends
-a = mlines.Line2D([], [], color='#FF7F00', marker='o',
-                          markersize=5, label='晴天',ls='')
-b = mlines.Line2D([], [], color='#FFE600', marker='o',
-                          markersize=5, label='多云',ls='')
-c = mlines.Line2D([], [], color='#969696', marker='o',
-                          markersize=5, label='阴天',ls='')
-d = mlines.Line2D([], [], color='#FA0000', marker='x',
-                          markersize=5, label='雷阵雨',ls='')
-e = mlines.Line2D([], [], color='#FF69B4', marker='o',
-                          markersize=5, label='雨夹雪',ls='')
-f = mlines.Line2D([], [], color='#96F278', marker='o',
-                          markersize=5, label='小雨',ls='')
-g = mlines.Line2D([], [], color='#56A708', marker='o',
-                          markersize=5, label='中雨',ls='')
-h = mlines.Line2D([], [], color='#62B8FB', marker='o',
-                          markersize=5, label='大雨',ls='')
-i = mlines.Line2D([], [], color='#244AFC', marker='o',
-                          markersize=5, label='暴雨',ls='')
-j = mlines.Line2D([], [], color='#E45EFB', marker='o',
-                          markersize=5, label='大暴雨',ls='')
-k = mlines.Line2D([], [], color='#8B0000', marker='o',
-                          markersize=5, label='特大暴雨',ls='')
-l = mlines.Line2D([], [], color='#D3D3D3', marker='o',
-                          markersize=5, label='小雪',ls='')
-m = mlines.Line2D([], [], color='#A9A9A9', marker='o',
-                          markersize=5, label='中雪',ls='')
-n = mlines.Line2D([], [], color='#808080', marker='o',
-                          markersize=5, label='大雪',ls='')
-o = mlines.Line2D([], [], color='#000000', marker='o',
-                          markersize=5, label='暴雪',ls='')
-p = mlines.Line2D([], [], color='#FFD700', marker='x',
-                          markersize=5, label='雾、霾、沙尘',ls='')
-plt.legend(handles=[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p])
-plt.title(title)
+    #map.drawmeridians(np.arange(0, 360, 10))
+    map.drawmeridians(np.arange(0, 360, 10),labels=[0,0,0,1],fontsize=10)
+    #map.drawparallels(np.arange(-90, 90, 10))
+    map.drawparallels(np.arange(-90, 90, 10),labels=[1,0,0,0],fontsize=10)
 
-# plt.show()
-plt.savefig(save4, dpi=100)
-print('天气预报图绘制完成！1/2')
+    # Fill continent wit a different color
+    map.fillcontinents(color='#FFFFFF', lake_color='#87CEFA', zorder=0)
 
-# ============================================
-# ============================================
-# ============================================
-# ============================================
-# ============================================DRAW FIFTH PLOT
-# ============================================
-# ============================================
-# ============================================
-# ============================================initialize the plot
-plt.figure(figsize=(13, 9), dpi=80)
-axes = plt.subplot(111)
-# set up map projection with
-# use low resolution coastlines.
-map = Basemap(llcrnrlon=70, llcrnrlat=15, urcrnrlon=135, urcrnrlat=55, \
-              rsphere=(6378137.00, 6356752.3142), \
-              resolution='l', projection='merc', \
-              lat_0=40., lon_0=-20., lat_ts=20.)
-# draw coastlines, country boundaries, fill continents.
-map.drawcoastlines(linewidth=0.25)
-map.drawcountries(linewidth=0.25)
-# draw the edge of the map projection region (the projection limb)
-map.drawmapboundary(fill_color='#87CEFA')#689CD2
-# draw lat/lon grid lines every 30 degrees.
+    # ============================================draw the stations and data
+    # compute native map projection coordinates of lat/lon grid.
+    x, y = map(lons, lats)
+    # Plot each city in a loop.
+    # Set some parameters
+    size_factor = 100.0
+    x_offset = 20.0
+    y_offset = -20.0
+    rotation = 0
+    temp=0
 
-#map.drawmeridians(np.arange(0, 360, 10))
-map.drawmeridians(np.arange(0, 360, 10),labels=[0,0,0,1],fontsize=10)
-#map.drawparallels(np.arange(-90, 90, 10))
-map.drawparallels(np.arange(-90, 90, 10),labels=[1,0,0,0],fontsize=10)
-
-# Fill continent wit a different color
-map.fillcontinents(color='#FFFFFF', lake_color='#87CEFA', zorder=0)
-
-# ============================================draw the stations and data
-# compute native map projection coordinates of lat/lon grid.
-x, y = map(lons, lats)
-# Plot each city in a loop.
-# Set some parameters
-size_factor = 100.0
-x_offset = 20.0
-y_offset = -20.0
-rotation = 0
-temp=0
-
-#draw station point
-for i, j, k, l, m, n, p in zip(x, y, day2dayweather, station, province, code, codeinfile):
-    temp = temp+1
-    if k == 0:
-        cs1 = map.scatter(i, j, s=15, marker='o', color='#FF7F00')
-    if k == 1:
-        cs2 = map.scatter(i, j, s=15, marker='o', color='#FFE600')
-    if k == 2:
-        cs3 = map.scatter(i, j, s=15, marker='o', color='#969696')
-    if k == 4:
-        cs4 = map.scatter(i, j, s=15, marker='x', color='#FA0000')
-    if k == 6:
-        cs5 = map.scatter(i, j, s=15, marker='o', color='#FF69B4')
-    if k == 3 or k == 7:
-        cs6 = map.scatter(i, j, s=15, marker='o', color='#96F278')
-    if k == 8 or k == 21 or k == 32:
-        cs7 = map.scatter(i, j, s=15, marker='o', color='#56A708')
-    if k == 9 or k == 22:
-        cs8 = map.scatter(i, j, s=15, marker='o', color='#62B8FB')
-    if k == 10 or k == 19 or k == 23:
-        cs9 = map.scatter(i, j, s=15, marker='o', color='#244AFC')
-    if k == 11 or k == 24:
-        cs10 = map.scatter(i, j, s=15, marker='o', color='#E45EFB')
-    if k == 12 or k ==25:
-        cs11 = map.scatter(i, j, s=15, marker='o', color='#8B0000')
-    if k == 5 or k == 13 or k ==14:
-        cs12 = map.scatter(i, j, s=15, marker='o', color='#D3D3D3')
-    if k == 15 or k == 26 or k == 33:
-        cs13 = map.scatter(i, j, s=15, marker='o', color='#A9A9A9')
-    if k == 16 or k == 27:
-        cs14 = map.scatter(i, j, s=15, marker='o', color='#808080')
-    if k == 17 or k == 28:
-        cs15 = map.scatter(i, j, s=15, marker='o', color='#000000')
-    if k == 18 or k == 20 or k == 29 or k == 30 or k == 31:
-        cs15 = map.scatter(i, j, s=15, marker='x', color='#FFD700')
-    if l == '上海' or l == '北京' or l == '重庆' or l == '石家庄' or l == '郑州' or l == '武汉' or l == '长沙' or l == '南京' \
-            or (l == '南昌' and m == '江西省') or l == '沈阳' or l == '长春' or l == '哈尔滨' or l == '西安' or l == '太原' or l == '济南' or l == '成都' \
-            or l == '西宁' or l == '合肥' or l == '海口' or l == '广州' or l == '贵阳' or l == '兰州' or l == '昆明' \
-            or l == '拉萨' or l == '银川' or l == '南宁' or l == '乌鲁木齐' or l == '呼和浩特':
-        plt.text(i + 20, j - 20, l, rotation=rotation, fontsize=10)
-    if l == '天津' or l == '杭州':
-        plt.text(i + 20, j - 100020, l, rotation=rotation, fontsize=10)
-    #print('Original_code:', p, 'Data:', n, l, '实时气温:', str(k), '°')
-    f = open("/Users/hsw/Desktop/forecastTdata.txt", "a+")
-    f.write('Original_code:'+ p + ' Data:' + date2 + ' 预报天气现象代码:' + str(k) + '°\n')
-    f.close()
+    #draw station point
+    for i, j, k, l, m, n, p in zip(x, y, day1dayweather, station, province, code, codeinfile):
+        temp = temp+1
+        if k == 0:
+            cs1 = map.scatter(i, j, s=15, marker='o', color='#FF7F00')
+        if k == 1:
+            cs2 = map.scatter(i, j, s=15, marker='o', color='#FFE600')
+        if k == 2:
+            cs3 = map.scatter(i, j, s=15, marker='o', color='#969696')
+        if k == 4:
+            cs4 = map.scatter(i, j, s=15, marker='x', color='#FA0000')
+        if k == 6:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#FF69B4')
+        if k == 3 or k == 7:
+            cs6 = map.scatter(i, j, s=15, marker='o', color='#96F278')
+        if k == 8 or k == 21 or k == 32:
+            cs7 = map.scatter(i, j, s=15, marker='o', color='#56A708')
+        if k == 9 or k == 22:
+            cs8 = map.scatter(i, j, s=15, marker='o', color='#62B8FB')
+        if k == 10 or k == 19 or k == 23:
+            cs9 = map.scatter(i, j, s=15, marker='o', color='#244AFC')
+        if k == 11 or k == 24:
+            cs10 = map.scatter(i, j, s=15, marker='o', color='#E45EFB')
+        if k == 12 or k ==25:
+            cs11 = map.scatter(i, j, s=15, marker='o', color='#8B0000')
+        if k == 5 or k == 13 or k ==14:
+            cs12 = map.scatter(i, j, s=15, marker='o', color='#D3D3D3')
+        if k == 15 or k == 26 or k == 33:
+            cs13 = map.scatter(i, j, s=15, marker='o', color='#A9A9A9')
+        if k == 16 or k == 27:
+            cs14 = map.scatter(i, j, s=15, marker='o', color='#808080')
+        if k == 17 or k == 28:
+            cs15 = map.scatter(i, j, s=15, marker='o', color='#000000')
+        if k == 18 or k == 20 or k == 29 or k == 30 or k == 31:
+            cs15 = map.scatter(i, j, s=15, marker='x', color='#FFD700')
+        if l == '上海' or l == '北京' or l == '重庆' or l == '石家庄' or l == '郑州' or l == '武汉' or l == '长沙' or l == '南京' \
+                or (l == '南昌' and m == '江西省') or l == '沈阳' or l == '长春' or l == '哈尔滨' or l == '西安' or l == '太原' or l == '济南' or l == '成都' \
+                or l == '西宁' or l == '合肥' or l == '海口' or l == '广州' or l == '贵阳' or l == '兰州' or l == '昆明' \
+                or l == '拉萨' or l == '银川' or l == '南宁' or l == '乌鲁木齐' or l == '呼和浩特':
+            plt.text(i + 20, j - 20, l, rotation=rotation, fontsize=10)
+        if l == '天津' or l == '杭州':
+            plt.text(i + 20, j - 100020, l, rotation=rotation, fontsize=10)
+        #print('Original_code:', p, 'Data:', n, l, '实时气温:', str(k), '°')
+        f = open("/Users/hsw/Desktop/forecastTdata.txt", "a+")
+        f.write('Original_code:'+ p + ' Data:' + date1 + ' 预报天气现象代码:' + str(k) + '°\n')
+        f.close()
 
 
-title = date2 + '白天全国天气现象预报图\n' + '预报时间:' + forecastupdatetime + '\n' + author
+    title = date1 + '白天全国天气现象预报图\n' + '预报时间:' + forecastupdatetime + '\n' + author
 
-# ============================================#define legends
-a = mlines.Line2D([], [], color='#FF7F00', marker='o',
-                          markersize=5, label='晴天',ls='')
-b = mlines.Line2D([], [], color='#FFE600', marker='o',
-                          markersize=5, label='多云',ls='')
-c = mlines.Line2D([], [], color='#969696', marker='o',
-                          markersize=5, label='阴天',ls='')
-d = mlines.Line2D([], [], color='#FA0000', marker='x',
-                          markersize=5, label='雷阵雨',ls='')
-e = mlines.Line2D([], [], color='#FF69B4', marker='o',
-                          markersize=5, label='雨夹雪',ls='')
-f = mlines.Line2D([], [], color='#96F278', marker='o',
-                          markersize=5, label='小雨',ls='')
-g = mlines.Line2D([], [], color='#56A708', marker='o',
-                          markersize=5, label='中雨',ls='')
-h = mlines.Line2D([], [], color='#62B8FB', marker='o',
-                          markersize=5, label='大雨',ls='')
-i = mlines.Line2D([], [], color='#244AFC', marker='o',
-                          markersize=5, label='暴雨',ls='')
-j = mlines.Line2D([], [], color='#E45EFB', marker='o',
-                          markersize=5, label='大暴雨',ls='')
-k = mlines.Line2D([], [], color='#8B0000', marker='o',
-                          markersize=5, label='特大暴雨',ls='')
-l = mlines.Line2D([], [], color='#D3D3D3', marker='o',
-                          markersize=5, label='小雪',ls='')
-m = mlines.Line2D([], [], color='#A9A9A9', marker='o',
-                          markersize=5, label='中雪',ls='')
-n = mlines.Line2D([], [], color='#808080', marker='o',
-                          markersize=5, label='大雪',ls='')
-o = mlines.Line2D([], [], color='#000000', marker='o',
-                          markersize=5, label='暴雪',ls='')
-p = mlines.Line2D([], [], color='#FFD700', marker='x',
-                          markersize=5, label='雾、霾、沙尘',ls='')
-plt.legend(handles=[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p])
-plt.title(title)
+    # ============================================#define legends
+    a = mlines.Line2D([], [], color='#FF7F00', marker='o',
+                              markersize=5, label='晴天',ls='')
+    b = mlines.Line2D([], [], color='#FFE600', marker='o',
+                              markersize=5, label='多云',ls='')
+    c = mlines.Line2D([], [], color='#969696', marker='o',
+                              markersize=5, label='阴天',ls='')
+    d = mlines.Line2D([], [], color='#FA0000', marker='x',
+                              markersize=5, label='雷阵雨',ls='')
+    e = mlines.Line2D([], [], color='#FF69B4', marker='o',
+                              markersize=5, label='雨夹雪',ls='')
+    f = mlines.Line2D([], [], color='#96F278', marker='o',
+                              markersize=5, label='小雨',ls='')
+    g = mlines.Line2D([], [], color='#56A708', marker='o',
+                              markersize=5, label='中雨',ls='')
+    h = mlines.Line2D([], [], color='#62B8FB', marker='o',
+                              markersize=5, label='大雨',ls='')
+    i = mlines.Line2D([], [], color='#244AFC', marker='o',
+                              markersize=5, label='暴雨',ls='')
+    j = mlines.Line2D([], [], color='#E45EFB', marker='o',
+                              markersize=5, label='大暴雨',ls='')
+    k = mlines.Line2D([], [], color='#8B0000', marker='o',
+                              markersize=5, label='特大暴雨',ls='')
+    l = mlines.Line2D([], [], color='#D3D3D3', marker='o',
+                              markersize=5, label='小雪',ls='')
+    m = mlines.Line2D([], [], color='#A9A9A9', marker='o',
+                              markersize=5, label='中雪',ls='')
+    n = mlines.Line2D([], [], color='#808080', marker='o',
+                              markersize=5, label='大雪',ls='')
+    o = mlines.Line2D([], [], color='#000000', marker='o',
+                              markersize=5, label='暴雪',ls='')
+    p = mlines.Line2D([], [], color='#FFD700', marker='x',
+                              markersize=5, label='雾、霾、沙尘',ls='')
+    plt.legend(handles=[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p])
+    plt.title(title)
 
-# plt.show()
-plt.savefig(save5, dpi=100)
-print('天气预报图绘制完成！2/2')
+    # plt.show()
+    plt.savefig(save4, dpi=100)
+    print('天气预报图绘制完成！1/2')
+
+    # ============================================
+    # ============================================
+    # ============================================
+    # ============================================
+    # ============================================DRAW FIFTH PLOT
+    # ============================================
+    # ============================================
+    # ============================================
+    # ============================================initialize the plot
+    plt.figure(figsize=(13, 9), dpi=80)
+    axes = plt.subplot(111)
+    # set up map projection with
+    # use low resolution coastlines.
+    map = Basemap(llcrnrlon=70, llcrnrlat=15, urcrnrlon=135, urcrnrlat=55, \
+                  rsphere=(6378137.00, 6356752.3142), \
+                  resolution='l', projection='merc', \
+                  lat_0=40., lon_0=-20., lat_ts=20.)
+    # draw coastlines, country boundaries, fill continents.
+    map.drawcoastlines(linewidth=0.25)
+    map.drawcountries(linewidth=0.25)
+    # draw the edge of the map projection region (the projection limb)
+    map.drawmapboundary(fill_color='#87CEFA')#689CD2
+    # draw lat/lon grid lines every 30 degrees.
+
+    #map.drawmeridians(np.arange(0, 360, 10))
+    map.drawmeridians(np.arange(0, 360, 10),labels=[0,0,0,1],fontsize=10)
+    #map.drawparallels(np.arange(-90, 90, 10))
+    map.drawparallels(np.arange(-90, 90, 10),labels=[1,0,0,0],fontsize=10)
+
+    # Fill continent wit a different color
+    map.fillcontinents(color='#FFFFFF', lake_color='#87CEFA', zorder=0)
+
+    # ============================================draw the stations and data
+    # compute native map projection coordinates of lat/lon grid.
+    x, y = map(lons, lats)
+    # Plot each city in a loop.
+    # Set some parameters
+    size_factor = 100.0
+    x_offset = 20.0
+    y_offset = -20.0
+    rotation = 0
+    temp=0
+
+    #draw station point
+    for i, j, k, l, m, n, p in zip(x, y, day2dayweather, station, province, code, codeinfile):
+        temp = temp+1
+        if k == 0:
+            cs1 = map.scatter(i, j, s=15, marker='o', color='#FF7F00')
+        if k == 1:
+            cs2 = map.scatter(i, j, s=15, marker='o', color='#FFE600')
+        if k == 2:
+            cs3 = map.scatter(i, j, s=15, marker='o', color='#969696')
+        if k == 4:
+            cs4 = map.scatter(i, j, s=15, marker='x', color='#FA0000')
+        if k == 6:
+            cs5 = map.scatter(i, j, s=15, marker='o', color='#FF69B4')
+        if k == 3 or k == 7:
+            cs6 = map.scatter(i, j, s=15, marker='o', color='#96F278')
+        if k == 8 or k == 21 or k == 32:
+            cs7 = map.scatter(i, j, s=15, marker='o', color='#56A708')
+        if k == 9 or k == 22:
+            cs8 = map.scatter(i, j, s=15, marker='o', color='#62B8FB')
+        if k == 10 or k == 19 or k == 23:
+            cs9 = map.scatter(i, j, s=15, marker='o', color='#244AFC')
+        if k == 11 or k == 24:
+            cs10 = map.scatter(i, j, s=15, marker='o', color='#E45EFB')
+        if k == 12 or k ==25:
+            cs11 = map.scatter(i, j, s=15, marker='o', color='#8B0000')
+        if k == 5 or k == 13 or k ==14:
+            cs12 = map.scatter(i, j, s=15, marker='o', color='#D3D3D3')
+        if k == 15 or k == 26 or k == 33:
+            cs13 = map.scatter(i, j, s=15, marker='o', color='#A9A9A9')
+        if k == 16 or k == 27:
+            cs14 = map.scatter(i, j, s=15, marker='o', color='#808080')
+        if k == 17 or k == 28:
+            cs15 = map.scatter(i, j, s=15, marker='o', color='#000000')
+        if k == 18 or k == 20 or k == 29 or k == 30 or k == 31:
+            cs15 = map.scatter(i, j, s=15, marker='x', color='#FFD700')
+        if l == '上海' or l == '北京' or l == '重庆' or l == '石家庄' or l == '郑州' or l == '武汉' or l == '长沙' or l == '南京' \
+                or (l == '南昌' and m == '江西省') or l == '沈阳' or l == '长春' or l == '哈尔滨' or l == '西安' or l == '太原' or l == '济南' or l == '成都' \
+                or l == '西宁' or l == '合肥' or l == '海口' or l == '广州' or l == '贵阳' or l == '兰州' or l == '昆明' \
+                or l == '拉萨' or l == '银川' or l == '南宁' or l == '乌鲁木齐' or l == '呼和浩特':
+            plt.text(i + 20, j - 20, l, rotation=rotation, fontsize=10)
+        if l == '天津' or l == '杭州':
+            plt.text(i + 20, j - 100020, l, rotation=rotation, fontsize=10)
+        #print('Original_code:', p, 'Data:', n, l, '实时气温:', str(k), '°')
+        f = open("/Users/hsw/Desktop/forecastTdata.txt", "a+")
+        f.write('Original_code:'+ p + ' Data:' + date2 + ' 预报天气现象代码:' + str(k) + '°\n')
+        f.close()
+
+
+    title = date2 + '白天全国天气现象预报图\n' + '预报时间:' + forecastupdatetime + '\n' + author
+
+    # ============================================#define legends
+    a = mlines.Line2D([], [], color='#FF7F00', marker='o',
+                              markersize=5, label='晴天',ls='')
+    b = mlines.Line2D([], [], color='#FFE600', marker='o',
+                              markersize=5, label='多云',ls='')
+    c = mlines.Line2D([], [], color='#969696', marker='o',
+                              markersize=5, label='阴天',ls='')
+    d = mlines.Line2D([], [], color='#FA0000', marker='x',
+                              markersize=5, label='雷阵雨',ls='')
+    e = mlines.Line2D([], [], color='#FF69B4', marker='o',
+                              markersize=5, label='雨夹雪',ls='')
+    f = mlines.Line2D([], [], color='#96F278', marker='o',
+                              markersize=5, label='小雨',ls='')
+    g = mlines.Line2D([], [], color='#56A708', marker='o',
+                              markersize=5, label='中雨',ls='')
+    h = mlines.Line2D([], [], color='#62B8FB', marker='o',
+                              markersize=5, label='大雨',ls='')
+    i = mlines.Line2D([], [], color='#244AFC', marker='o',
+                              markersize=5, label='暴雨',ls='')
+    j = mlines.Line2D([], [], color='#E45EFB', marker='o',
+                              markersize=5, label='大暴雨',ls='')
+    k = mlines.Line2D([], [], color='#8B0000', marker='o',
+                              markersize=5, label='特大暴雨',ls='')
+    l = mlines.Line2D([], [], color='#D3D3D3', marker='o',
+                              markersize=5, label='小雪',ls='')
+    m = mlines.Line2D([], [], color='#A9A9A9', marker='o',
+                              markersize=5, label='中雪',ls='')
+    n = mlines.Line2D([], [], color='#808080', marker='o',
+                              markersize=5, label='大雪',ls='')
+    o = mlines.Line2D([], [], color='#000000', marker='o',
+                              markersize=5, label='暴雪',ls='')
+    p = mlines.Line2D([], [], color='#FFD700', marker='x',
+                              markersize=5, label='雾、霾、沙尘',ls='')
+    plt.legend(handles=[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p])
+    plt.title(title)
+
+    # plt.show()
+    plt.savefig(save5, dpi=100)
+    print('天气预报图绘制完成！2/2')
 print('绘制结束，退出程序。')
-
-
