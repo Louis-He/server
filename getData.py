@@ -211,8 +211,8 @@ plt.legend(handles=[a, b, c, d, e, f, g, h, i, j, k, l, m])
 plt.title(title)
 
 # plt.show()
+print('实时气温分布图绘制完成！')
 plt.savefig(save, dpi=100)
-plt.show()
 
 # ============================================
 # ============================================
@@ -336,7 +336,7 @@ plt.title(title)
 
 # plt.show()
 plt.savefig(save2, dpi=100)
-plt.show()
+print('最高气温分布图绘制完成！1/2')
 
 # ============================================
 # ============================================
@@ -458,7 +458,7 @@ plt.title(title)
 
 # plt.show()
 plt.savefig(save3, dpi=100)
-plt.show()
+print('最高气温分布图绘制完成！2/2')
 
 
 # ============================================
@@ -514,7 +514,7 @@ for i, j, k, l, m, n, p in zip(x, y, day1dayweather, station, province, code, co
     if k == 2:
         cs3 = map.scatter(i, j, s=15, marker='o', color='#969696')
     if k == 4:
-        cs4 = map.scatter(i, j, s=15, marker='o', color='#FA0000')
+        cs4 = map.scatter(i, j, s=15, marker='x', color='#FA0000')
     if k == 6:
         cs5 = map.scatter(i, j, s=15, marker='o', color='#FF69B4')
     if k == 3 or k == 7:
@@ -538,7 +538,7 @@ for i, j, k, l, m, n, p in zip(x, y, day1dayweather, station, province, code, co
     if k == 17 or k == 28:
         cs15 = map.scatter(i, j, s=15, marker='o', color='#000000')
     if k == 18 or k == 20 or k == 29 or k == 30 or k == 31:
-        cs15 = map.scatter(i, j, s=15, marker='o', color='#FFD700')
+        cs15 = map.scatter(i, j, s=15, marker='x', color='#FFD700')
     if l == '上海' or l == '北京' or l == '重庆' or l == '石家庄' or l == '郑州' or l == '武汉' or l == '长沙' or l == '南京' \
             or (l == '南昌' and m == '江西省') or l == '沈阳' or l == '长春' or l == '哈尔滨' or l == '西安' or l == '太原' or l == '济南' or l == '成都' \
             or l == '西宁' or l == '合肥' or l == '海口' or l == '广州' or l == '贵阳' or l == '兰州' or l == '昆明' \
@@ -561,7 +561,7 @@ b = mlines.Line2D([], [], color='#FFE600', marker='o',
                           markersize=5, label='多云',ls='')
 c = mlines.Line2D([], [], color='#969696', marker='o',
                           markersize=5, label='阴天',ls='')
-d = mlines.Line2D([], [], color='#FA0000', marker='o',
+d = mlines.Line2D([], [], color='#FA0000', marker='x',
                           markersize=5, label='雷阵雨',ls='')
 e = mlines.Line2D([], [], color='#FF69B4', marker='o',
                           markersize=5, label='雨夹雪',ls='')
@@ -585,14 +585,14 @@ n = mlines.Line2D([], [], color='#808080', marker='o',
                           markersize=5, label='大雪',ls='')
 o = mlines.Line2D([], [], color='#000000', marker='o',
                           markersize=5, label='暴雪',ls='')
-p = mlines.Line2D([], [], color='#FFD700', marker='o',
+p = mlines.Line2D([], [], color='#FFD700', marker='x',
                           markersize=5, label='雾、霾、沙尘',ls='')
 plt.legend(handles=[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p])
 plt.title(title)
 
 # plt.show()
 plt.savefig(save4, dpi=100)
-plt.show()
+print('天气预报图绘制完成！1/2')
 
 # ============================================
 # ============================================
@@ -647,7 +647,7 @@ for i, j, k, l, m, n, p in zip(x, y, day2dayweather, station, province, code, co
     if k == 2:
         cs3 = map.scatter(i, j, s=15, marker='o', color='#969696')
     if k == 4:
-        cs4 = map.scatter(i, j, s=15, marker='o', color='#FA0000')
+        cs4 = map.scatter(i, j, s=15, marker='x', color='#FA0000')
     if k == 6:
         cs5 = map.scatter(i, j, s=15, marker='o', color='#FF69B4')
     if k == 3 or k == 7:
@@ -671,7 +671,7 @@ for i, j, k, l, m, n, p in zip(x, y, day2dayweather, station, province, code, co
     if k == 17 or k == 28:
         cs15 = map.scatter(i, j, s=15, marker='o', color='#000000')
     if k == 18 or k == 20 or k == 29 or k == 30 or k == 31:
-        cs15 = map.scatter(i, j, s=15, marker='o', color='#FFD700')
+        cs15 = map.scatter(i, j, s=15, marker='x', color='#FFD700')
     if l == '上海' or l == '北京' or l == '重庆' or l == '石家庄' or l == '郑州' or l == '武汉' or l == '长沙' or l == '南京' \
             or (l == '南昌' and m == '江西省') or l == '沈阳' or l == '长春' or l == '哈尔滨' or l == '西安' or l == '太原' or l == '济南' or l == '成都' \
             or l == '西宁' or l == '合肥' or l == '海口' or l == '广州' or l == '贵阳' or l == '兰州' or l == '昆明' \
@@ -694,7 +694,7 @@ b = mlines.Line2D([], [], color='#FFE600', marker='o',
                           markersize=5, label='多云',ls='')
 c = mlines.Line2D([], [], color='#969696', marker='o',
                           markersize=5, label='阴天',ls='')
-d = mlines.Line2D([], [], color='#FA0000', marker='o',
+d = mlines.Line2D([], [], color='#FA0000', marker='x',
                           markersize=5, label='雷阵雨',ls='')
 e = mlines.Line2D([], [], color='#FF69B4', marker='o',
                           markersize=5, label='雨夹雪',ls='')
@@ -718,13 +718,14 @@ n = mlines.Line2D([], [], color='#808080', marker='o',
                           markersize=5, label='大雪',ls='')
 o = mlines.Line2D([], [], color='#000000', marker='o',
                           markersize=5, label='暴雪',ls='')
-p = mlines.Line2D([], [], color='#FFD700', marker='o',
+p = mlines.Line2D([], [], color='#FFD700', marker='x',
                           markersize=5, label='雾、霾、沙尘',ls='')
 plt.legend(handles=[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p])
 plt.title(title)
 
 # plt.show()
 plt.savefig(save5, dpi=100)
-plt.show()
+print('天气预报图绘制完成！2/2')
+print('绘制结束，退出程序。')
 
 
