@@ -107,6 +107,20 @@ print('station', station)
 print('time', time)
 print('T', T)
 
+# ============================================analyze realtime temperature
+'''
+Tarr = np.array(T)
+SD = np.std(Tarr)
+max = -9999
+min = 9999
+for i in zip(T):
+    if i > max and i != 9999:
+        max = i
+    if i < min:
+        min = i
+'''
+
+
 
 # ============================================initialize the plot
 plt.figure(figsize=(13, 9), dpi=120)
@@ -336,6 +350,8 @@ f.close()
 
 analyze = ''
 
+print('实况数据列表-' + time[0])
+
 for i, j, k, l, m, n, p, q, r in zip(x, y, T, station, province, code, codeinfile, lons, lats):
     temp = temp+1
     size = size_factor * k / max_T
@@ -401,6 +417,8 @@ for i, j, k, l, m, n, p, q, r in zip(x, y, T, station, province, code, codeinfil
             plt.text(i + 20, j - 100020, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
         if l == '合肥':
             plt.text(i - 100000, j - 20, l + '\n' + str(k) + '°', rotation=rotation, fontsize=10)
+        if m == '上海市':
+            print (n, l, '实时气温:', str(k), '°C')
         #print('Original_code:', p, 'Data:', n, l, '实时气温:', str(k), '°')
         f = open("/Users/hsw/Desktop/realTdata.txt", "a+")
         f.write('Original_code:'+ p + ' Data:' + n + ' ' + l + ' 实时气温:' + str(k) + '°\n')
@@ -473,7 +491,7 @@ print('区域实时气温分布图绘制完成！')
 plt.savefig(partialsave, dpi=100)
 
 
-if type == 1:
+if type == '1':
     # ============================================
     # ============================================
     # ============================================
