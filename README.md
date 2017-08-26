@@ -3,6 +3,11 @@
 Using the data from National Meteorological Center of CMA to plot the realtime weather map(Temperature), and future two days Temperature and weather Forecast. Other charts will be added to this project in the future.
 
 
+'getData.py' is used to plot realtime and forecast graphs.
+
+'alert_sh.py' is used to plot realtime alerts in Shanghai every districts (Function Still Under construction...)
+
+
 
 # 天气图
 
@@ -10,14 +15,23 @@ Using the data from National Meteorological Center of CMA to plot the realtime w
 
 
 
-!IMPORTANT NOTE!
+'getData.py' 是用来绘制实况和未来天气预报。
+
+'alert_sh.py' 是用来绘制上海市实况分区预警信号。（仍在实现中......）
+
+
+# !IMPORTANT NOTE!
 This python file use Python3 with JSON, Basemap, matplotlib and numpy.
 
-！重要事项！
+Credit @Louis_He
+
+# ！重要事项！
 本文件使用python3编写，使用插件JSON, Basemap, matplotlib和numpy。
 
+版权所有： Louis_He
 
 
-Update Date: Aug, 16th, 2017
 
-最近一次更新时间：2017年8月16日
+Update Date: Aug, 26th, 2017
+
+最近一次更新时间：2017年8月26日
