@@ -20,19 +20,20 @@ record=record.replace('[市预警发布中心]','「市预警发布中心」')
 
 fqwarn = record[record.index('=[')+1:record.index(']')+1]
 record = record[record.index(']')+1:len(record)]
-print(fqwarn)
+#print(fqwarn)
 
 fqwarnhistory = record[record.index('=[')+1:record.index(']')+1]
 record = record[record.index(']')+1:len(record)]
 #print(fqwarnhistory)
 
 warn = record[record.index('var warns=[')+len('var warns='):record.index(']')+1]
-print(warn)
+#print(warn)
 
 regionwarn = json.loads(fqwarn)
 citywarn = json.loads(warn)
 
 # ============================================analyze district warning
+findwarn = input("你想绘制的预警信号种类(空着意味着输出最高级别预警信号):");
 warninfo = []
 
 shanghai = []
@@ -74,15 +75,17 @@ def analyzecolor(warnlist):
     global fqcolor
     for i in warnlist:
         max = 0
-        if '蓝色' in i and max == 0:
+        if findwarn+'蓝色' in i and max == 0:
             max = 1
-        if '黄色' in i and max <= 1:
+        if findwarn+'黄色' in i and max <= 1:
             max = 2
-        if '橙色' in i and max <= 2:
+        if findwarn+'橙色' in i and max <= 2:
             max = 3
-        if '红色' in i and max <= 3:
+        if findwarn+'红色' in i and max <= 3:
             max = 4
         fqcolor.append(max)
+    if warnlist==[]:
+        fqcolor.append(0)
 
 fqcolor = []
 analyzecolor(shanghai)
@@ -124,6 +127,9 @@ map.drawparallels(np.arange(-90, 90, 10),labels=[1,0,0,0],fontsize=10)
 shp_info = map.readshapefile('/Users/hsw/Downloads/shanghai_shp/Shanghai_county','shanghai',drawbounds=False)
 for info, shp in zip(map.shanghai_info, map.shanghai):
     proid = info['NAME_3']
+    if proid == 'Shanghai' and fqcolor[0]==0:
+        poly = Polygon(shp,facecolor='w',edgecolor='b', lw=0.2)
+        axes.add_patch(poly)
     if proid == 'Shanghai' and fqcolor[0]==1:
         poly = Polygon(shp,facecolor='blue',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
@@ -137,6 +143,9 @@ for info, shp in zip(map.shanghai_info, map.shanghai):
         poly = Polygon(shp,facecolor='red',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
 
+    if proid == 'Chongming' and fqcolor[1]==0:
+        poly = Polygon(shp,facecolor='w',edgecolor='b', lw=0.2)
+        axes.add_patch(poly)
     if proid == 'Chongming' and fqcolor[1]==1:
         poly = Polygon(shp,facecolor='blue',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
@@ -150,6 +159,9 @@ for info, shp in zip(map.shanghai_info, map.shanghai):
         poly = Polygon(shp,facecolor='red',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
 
+    if proid == 'Baoshan' and fqcolor[2]==0:
+        poly = Polygon(shp,facecolor='w',edgecolor='b', lw=0.2)
+        axes.add_patch(poly)
     if proid == 'Baoshan' and fqcolor[2]==1:
         poly = Polygon(shp,facecolor='blue',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
@@ -163,6 +175,9 @@ for info, shp in zip(map.shanghai_info, map.shanghai):
         poly = Polygon(shp,facecolor='red',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
 
+    if proid == 'Jiading' and fqcolor[3]==0:
+        poly = Polygon(shp,facecolor='w',edgecolor='b', lw=0.2)
+        axes.add_patch(poly)
     if proid == 'Jiading' and fqcolor[3]==1:
         poly = Polygon(shp,facecolor='blue',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
@@ -176,6 +191,9 @@ for info, shp in zip(map.shanghai_info, map.shanghai):
         poly = Polygon(shp,facecolor='red',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
 
+    if proid == 'Qingpu' and fqcolor[4]==0:
+        poly = Polygon(shp,facecolor='w',edgecolor='b', lw=0.2)
+        axes.add_patch(poly)
     if proid == 'Qingpu' and fqcolor[4]==1:
         poly = Polygon(shp,facecolor='blue',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
@@ -189,6 +207,9 @@ for info, shp in zip(map.shanghai_info, map.shanghai):
         poly = Polygon(shp,facecolor='red',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
 
+    if proid == 'Songjiang' and fqcolor[5]==0:
+        poly = Polygon(shp,facecolor='w',edgecolor='b', lw=0.2)
+        axes.add_patch(poly)
     if proid == 'Songjiang' and fqcolor[5]==1:
         poly = Polygon(shp,facecolor='blue',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
@@ -202,6 +223,9 @@ for info, shp in zip(map.shanghai_info, map.shanghai):
         poly = Polygon(shp,facecolor='red',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
 
+    if proid == 'Minhang' and fqcolor[6]==0:
+        poly = Polygon(shp,facecolor='w',edgecolor='b', lw=0.2)
+        axes.add_patch(poly)
     if proid == 'Minhang' and fqcolor[6]==1:
         poly = Polygon(shp,facecolor='blue',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
@@ -215,6 +239,9 @@ for info, shp in zip(map.shanghai_info, map.shanghai):
         poly = Polygon(shp,facecolor='red',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
 
+    if proid == 'Pudong' and fqcolor[7]==0:
+        poly = Polygon(shp,facecolor='w',edgecolor='b', lw=0.2)
+        axes.add_patch(poly)
     if proid == 'Pudong' and fqcolor[7]==1:
         poly = Polygon(shp,facecolor='blue',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
@@ -228,6 +255,9 @@ for info, shp in zip(map.shanghai_info, map.shanghai):
         poly = Polygon(shp,facecolor='red',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
 
+    if proid == 'Nanhui' and fqcolor[7]==0:
+        poly = Polygon(shp,facecolor='w',edgecolor='b', lw=0.2)
+        axes.add_patch(poly)
     if proid == 'Nanhui' and fqcolor[7]==1:
         poly = Polygon(shp,facecolor='blue',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
@@ -241,6 +271,9 @@ for info, shp in zip(map.shanghai_info, map.shanghai):
         poly = Polygon(shp,facecolor='red',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
 
+    if proid == 'Jinshan' and fqcolor[8]==0:
+        poly = Polygon(shp,facecolor='w',edgecolor='b', lw=0.2)
+        axes.add_patch(poly)
     if proid == 'Jinshan' and fqcolor[8]==1:
         poly = Polygon(shp,facecolor='blue',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
@@ -254,6 +287,9 @@ for info, shp in zip(map.shanghai_info, map.shanghai):
         poly = Polygon(shp,facecolor='red',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
 
+    if proid == 'Fengxian' and fqcolor[9]==0:
+        poly = Polygon(shp,facecolor='w',edgecolor='b', lw=0.2)
+        axes.add_patch(poly)
     if proid == 'Fengxian' and fqcolor[9]==1:
         poly = Polygon(shp,facecolor='blue',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
@@ -279,5 +315,7 @@ plt.text(38811.8, 39813.3, '金山区', fontsize=9)
 plt.text(68803.6, 49700.7, '奉贤区', fontsize=9)
 #map.readshapefile(shapefile='/Users/hsw/Downloads/shanghai_shp/Shanghai_county',name='1', drawbounds=True, linewidth=0.5, color='red', default_encoding='UTF-8')
 
-plt.title('上海市实时分区预警信号分布图\n预警信号最高级别落区\n' + '更新时间:' + time.strftime('%Y年%m月%d日 %H时%M分%S秒',time.localtime(time.time())))
+if findwarn == "":
+    findwarn = "最高"
+plt.title('上海市实时分区预警信号分布图\n'+findwarn+'预警信号级别落区\n' + '更新时间:' + time.strftime('%Y年%m月%d日 %H时%M分%S秒',time.localtime(time.time())))
 plt.show()
