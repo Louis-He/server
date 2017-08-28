@@ -1,37 +1,69 @@
 # weather_map
 
-Using the data from National Meteorological Center of CMA to plot the realtime weather map(Temperature), and future two days Temperature and weather Forecast. Other charts will be added to this project in the future.
-
+Using the data from National Meteorological Center of CMA to plot the realtime weather map(Temperature), and future two days Temperature and weather Forecast. Other charts will be added to this project in the future:
 
 'getData.py' is used to plot realtime and forecast graphs.
 
-'alert_sh.py' is used to plot realtime alerts in Shanghai every districts (Function Still Under construction...)
+
+Using the data from Shanghai Meteorological Bureau to plot realtime alarm:
+
+'alert_sh.py' is used to plot realtime alerts in Shanghai every districts(Graph shows the higest level of alarm).
+
+
+Using the data from Environment, Canada to plot the hourly temperature map:
+
+'CA_weather.py' is used to plot the hourly temperature distribution over Ontorio, CA.
+
+
+Using the data from Wunderground.com to plot the realtime temperature map:
+
+'wunderground_weather.py' is used to plot the hourly temperature distribution over the aera of Toronto. (You can change the aera by changing the setting of longitude and latitude)
 
 
 
 # 天气图
 
-通过使用中国气象局中央气象台的数据绘出中国地区的实时气温分布图，未来两天气温和天气现象预报。更多功能将会不断更新。
-
-
+通过使用中国气象局中央气象台的数据绘出中国地区的实时气温分布图，未来两天气温和天气现象预报：
 
 'getData.py' 是用来绘制实况和未来天气预报。
 
-'alert_sh.py' 是用来绘制上海市实况分区预警信号。（仍在实现中......）
+
+通过使用上海市气象局的实时预警信息绘制上海市预警信号分布：
+
+'alert_sh.py' 是用来绘制上海市实况分区预警信号。
+
+
+通过使用加拿大环境的数据绘制小时气温分布图：
+
+'CA_weather.py'是用来绘制加拿大安大略省小时气温分布图。
+
+
+通过使用Wunderground.com的数据绘制实时气温分布图：
+
+'CA_weather.py'是用来绘制加拿大多伦多以及附近地区的实时气温分布图。（你可以通过调整经纬度来改变绘图区域）
 
 
 # !IMPORTANT NOTE!
-This python file use Python3 with JSON, Basemap, matplotlib and numpy.
+1. This python file use Python3 with JSON, Basemap, matplotlib and numpy.
+
+2. Folder 'shanghai_shp' contains shape file for Shanghai, it is needed in 'alert_sh.py'.
+
+3. THE PATH OF GRAPHS AND REQUIRED FILES NEEDS TO BE CHANGED BEFORE RUNING!
 
 Credit @Louis_He
 
 # ！重要事项！
-本文件使用python3编写，使用插件JSON, Basemap, matplotlib和numpy。
+1. 本文件使用python3编写，使用插件JSON, Basemap, matplotlib和numpy。
+
+2. 'shanghai_shp'文件夹包含了上海地区的shape地理信息文件，在'alert_sh.py'中需要使用。
+
+3. 在使用所有程序前，请检查Python文件中各种图片保存和所需文件的地址并修改！
+
 
 版权所有： Louis_He
 
 
 
-Update Date: Aug, 26th, 2017
+Update Date: Aug, 28th, 2017
 
-最近一次更新时间：2017年8月26日
+最近一次更新时间：2017年8月28日
