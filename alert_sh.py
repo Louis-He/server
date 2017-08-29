@@ -35,6 +35,7 @@ citywarn = json.loads(warn)
 # ============================================analyze district warning
 findwarn = input("你想绘制的预警信号种类(空着意味着输出最高级别预警信号):");
 warninfo = []
+alarmflag = []#existing alarms
 
 shanghai = []
 chongming = []
@@ -100,7 +101,11 @@ analyzecolor(minhang)
 analyzecolor(pudong)
 analyzecolor(jinshan)
 analyzecolor(fengxian)
+<<<<<<< HEAD
 print(fqcolor)
+=======
+
+>>>>>>> 9f61454b585e6cf3cb23b40ea970fb8f6f31fd9c
 # ============================================initialize the plot
 plt.figure(figsize=(5, 6), dpi=120)
 axes = plt.subplot(111)
