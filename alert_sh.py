@@ -27,7 +27,7 @@ record = record[record.index(']')+1:len(record)]
 #print(fqwarnhistory)
 
 warn = record[record.index('var warns=[')+len('var warns='):record.index(']')+1]
-#print(warn)
+print(warn)
 
 regionwarn = json.loads(fqwarn)
 citywarn = json.loads(warn)
@@ -71,10 +71,12 @@ for o in citywarn:
     shanghai.append(o['name'])
     warninfo.append(o['htmlword'])
 
+
 def analyzecolor(warnlist):
     global fqcolor
+    print(warnlist)
+    max = 0
     for i in warnlist:
-        max = 0
         if findwarn+'蓝色' in i and max == 0:
             max = 1
         if findwarn+'黄色' in i and max <= 1:
@@ -83,9 +85,9 @@ def analyzecolor(warnlist):
             max = 3
         if findwarn+'红色' in i and max <= 3:
             max = 4
-        fqcolor.append(max)
-    if warnlist==[]:
-        fqcolor.append(0)
+        print(i, max)
+    fqcolor.append(max)
+
 
 fqcolor = []
 analyzecolor(shanghai)
@@ -98,6 +100,7 @@ analyzecolor(minhang)
 analyzecolor(pudong)
 analyzecolor(jinshan)
 analyzecolor(fengxian)
+print(fqcolor)
 # ============================================initialize the plot
 plt.figure(figsize=(5, 6), dpi=120)
 axes = plt.subplot(111)
