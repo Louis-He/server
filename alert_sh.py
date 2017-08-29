@@ -75,7 +75,7 @@ for o in citywarn:
 
 def analyzecolor(warnlist):
     global fqcolor
-    print(warnlist)
+    #print(warnlist)
     max = 0
     for i in warnlist:
         if findwarn+'蓝色' in i and max == 0:
@@ -86,7 +86,7 @@ def analyzecolor(warnlist):
             max = 3
         if findwarn+'红色' in i and max <= 3:
             max = 4
-        print(i, max)
+        #print(i, max)
     fqcolor.append(max)
 
 
@@ -101,11 +101,10 @@ analyzecolor(minhang)
 analyzecolor(pudong)
 analyzecolor(jinshan)
 analyzecolor(fengxian)
-<<<<<<< HEAD
-print(fqcolor)
-=======
 
->>>>>>> 9f61454b585e6cf3cb23b40ea970fb8f6f31fd9c
+#print(fqcolor)
+
+
 # ============================================initialize the plot
 plt.figure(figsize=(5, 6), dpi=120)
 axes = plt.subplot(111)
