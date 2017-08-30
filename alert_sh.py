@@ -33,6 +33,9 @@ regionwarn = json.loads(fqwarn)
 citywarn = json.loads(warn)
 
 # ============================================analyze district warning
+
+warning_flag = [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
 findwarn = input("你想绘制的预警信号种类(空着意味着输出最高级别预警信号):");
 warninfo = []
 alarmflag = []#existing alarms
@@ -67,11 +70,39 @@ for o in regionwarn:
         jinshan.append(o['name'])
     if o['yjfbdw']=='奉贤区气象台':
         fengxian.append(o['name'])
+    if '台风' in o['name']:
+        alarmflag[0] = 1
+    if '暴雨' in o['name']:
+        alarmflag[1] = 1
+    if '暴雪' in o['name']:
+        alarmflag[2] = 1
+    if '寒潮' in o['name']:
+        alarmflag[3] = 1
+    if '大风' in o['name']:
+        alarmflag[4] = 1
+    if '沙尘暴' in o['name']:
+        alarmflag[5] = 1
+    if '高温' in o['name']:
+        alarmflag[6] = 1
+    if '干旱' in o['name']:
+        alarmflag[7] = 1
+    if '雷电' in o['name']:
+        alarmflag[8] = 1
+    if '冰雹' in o['name']:
+        alarmflag[9] = 1
+    if '霜冻' in o['name']:
+        alarmflag[10] = 1
+    if '大雾' in o['name']:
+        alarmflag[11] = 1
+    if '霾' in o['name']:
+        alarmflag[12] = 1
+    if '道路结冰' in o['name']:
+        alarmflag[13] = 1
+
 
 for o in citywarn:
     shanghai.append(o['name'])
     warninfo.append(o['htmlword'])
-
 
 def analyzecolor(warnlist):
     global fqcolor
