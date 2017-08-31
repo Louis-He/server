@@ -23,12 +23,15 @@ chinese_font = FontProperties(fname='/home/weather/hsefz_server/program_font/sim
 notify = False
 latestwarn = []
 emaillist = []
+
 def getalarm():
     global notify
     global latestwarn
     #http://182.254.214.114/wxapp/jsondata/fqwarnlist.js
     # ============================================get realtime alerts
     data = urllib.request.urlopen('http://182.254.214.114/wxapp/jsondata/fqwarnlist.js').read()
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] RAW DATA INPUT COMPLETE')
+
     record = data.decode('UTF-8')
     #print(record)
     record=record.replace('[市预警发布中心]','「市预警发布中心」')
@@ -42,11 +45,12 @@ def getalarm():
     #print(fqwarnhistory)
 
     warn = record[record.index('var warns=[')+len('var warns='):record.index(']')+1]
-    print(warn)
+    #print(warn)
 
     regionwarn = json.loads(fqwarn)
     citywarn = json.loads(warn)
 
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] RAW DATA JSON ANALYSIS COMPLETE')
     # ============================================analyze district warning
 
     warning_flag = [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
@@ -146,17 +150,13 @@ def getalarm():
     analyzecolor(pudong)
     analyzecolor(jinshan)
     analyzecolor(fengxian)
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] DATA ANALYSIS COMPLETE')
 
     for i in range(0,len(shanghai)):
         if i > latestwarn or shanghai[i] != latestwarn[i]:
             notify = True
 
     latestwarn = shanghai
-
-
-    if notify:
-        plot()
-        sendemail()
 
     f = open("/home/weather/hsefz_server/weather_map/mailtext/text.txt", "w+")
     f.close()
@@ -170,11 +170,21 @@ def getalarm():
     f.write('###################################\n'
             '这封邮件由华师大二附中气象服务中心服务器自动发出,<请不要回复！>\nThis email was directly sent from HSEFZ Meteorological Service Center,<PLEASE DO NOT RESPOND!>')
     f.close()
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] TEXT FILE COMPLETE')
+
+
+    if notify:
+        print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] ALARM CONDITION UPDATE! ALARMS SHOWED BELOW:')
+        print(shanghai)
+        plot()
+        sendemail()
+
     notify = False
     #print(fqcolor)
 
 def plot():
     # ============================================initialize the plot
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] INITIALIZE THE PLOT')
     plt.figure(figsize=(5, 6), dpi=120)
     axes = plt.subplot(111)
 
@@ -393,8 +403,10 @@ def plot():
 
     plt.title('上海市实时分区预警信号分布图\n最搞预警信号级别落区\n' + '更新时间:' + time.strftime('%Y年%m月%d日 %H时%M分%S秒',time.localtime(time.time())),fontproperties=chinese_font)
     plt.savefig('/home/weather/hsefz_server/weather_map/diagrams/alert.png',dpi=100)
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] PLOT COMPLETE')
 
 def getemaillist():
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] GET EMAIL LIST')
     global emaillist
     file = "/home/weather/hsefz_server/secret/mailto.txt"
     fh = open(file)
@@ -403,9 +415,26 @@ def getemaillist():
         emailaddress = info[0]
         emaillist.append(emailaddress)
         print('target_email: '+emailaddress)
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] GET EMAIL LIST COMPLETE')
 
 def sendemail():
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] SEND EMAIL START')
     global emaillist
     for i in emaillist:
         os.system('mutt -s "预警信号_WeatherALARM" -a diagrams/alert.png -- '+i+' < mailtext/text.txt')
+        print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] EMAIL TO '+i+' SEND COMPLETE')
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] ALL EMAILS WERE SENT COMPLETE')
 
+def timer(n):
+    ''''' 
+    每n秒执行一次 
+    '''
+    while True:
+        print ('[' + time.strftime('%Y-%m-%d %X',time.localtime()) + '] CYCLE START')
+        getalarm()  # 此处为要执行的任务
+        time.sleep(n)
+        print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] PROGRAM SLEEP')
+
+print ('[' + time.strftime('%Y-%m-%d %X',time.localtime()) + '] PROGRAM START')
+getemaillist()
+timer(120)
