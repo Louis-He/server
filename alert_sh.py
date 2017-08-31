@@ -1,15 +1,23 @@
 #encoding:UTF-8
+import sys
+sys.path.append('/usr/lib/python3/dist-packages/matplotlib/externals/')
 
+import matplotlib
+matplotlib.use('Agg')
+
+import os
 import urllib
 import urllib.request
 import json
 from mpl_toolkits.basemap import Basemap
 import matplotlib.pyplot as plt
-plt.rcParams['font.sans-serif'] = ['SimHei']
 import matplotlib.lines as mlines
 from matplotlib.patches import Polygon
 import numpy as np
 import time
+
+from matplotlib.font_manager import FontProperties
+chinese_font = FontProperties(fname='/home/weather/hsefz_server/program_font/simhei.ttf')
 
 #http://182.254.214.114/wxapp/jsondata/fqwarnlist.js
 # ============================================get realtime alerts
@@ -35,6 +43,8 @@ citywarn = json.loads(warn)
 # ============================================analyze district warning
 
 warning_flag = [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+notify = False
+latestwarninginfo = []
 
 findwarn = input("你想绘制的预警信号种类(空着意味着输出最高级别预警信号):");
 warninfo = []
@@ -133,6 +143,12 @@ analyzecolor(pudong)
 analyzecolor(jinshan)
 analyzecolor(fengxian)
 
+for i in range(0,len(shanghai)):
+    if i > latestwarn or shanghai[i] != latestwarn[i]:
+        notify = True
+
+latestwarn = shanghai
+
 #print(fqcolor)
 
 
@@ -162,7 +178,7 @@ map.drawparallels(np.arange(-90, 90, 10),labels=[1,0,0,0],fontsize=10)
 # Fill continent wit a different color
 #map.fillcontinents(color='#DDDDDD', lake_color='#87CEFA', zorder=0)
 
-shp_info = map.readshapefile('/Users/hsw/Downloads/shanghai_shp/Shanghai_county','shanghai',drawbounds=False)
+shp_info = map.readshapefile('/home/weather/hsefz_server/weather_map/shanghai_shp/Shanghai_county','shanghai',drawbounds=False)
 for info, shp in zip(map.shanghai_info, map.shanghai):
     proid = info['NAME_3']
     if proid == 'Shanghai' and fqcolor[0]==0:
@@ -341,19 +357,19 @@ for info, shp in zip(map.shanghai_info, map.shanghai):
         poly = Polygon(shp,facecolor='red',edgecolor='b', lw=0.2)
         axes.add_patch(poly)
 
-plt.text(65507.8, 139347, '崇明区', fontsize=9)
-plt.text(38152.6, 105400, '嘉定区', fontsize=9)
-plt.text(57268.3, 110344, '宝山区', fontsize=9)
-plt.text(14093.3, 72112.2, '青浦区', fontsize=9)
-plt.text(60230.3, 89250.4, '中心城区', fontsize=9)
-plt.text(84293.9, 76385.5, '浦东新区', fontsize=9)
-plt.text(36175.1, 61236.1, '松江区', fontsize=9)
-plt.text(60564.1, 73101, '闵行区', fontsize=9)
-plt.text(38811.8, 39813.3, '金山区', fontsize=9)
-plt.text(68803.6, 49700.7, '奉贤区', fontsize=9)
+plt.text(65507.8, 139347, '崇明区', fontsize=9,fontproperties=chinese_font)
+plt.text(38152.6, 105400, '嘉定区', fontsize=9,fontproperties=chinese_font)
+plt.text(57268.3, 110344, '宝山区', fontsize=9,fontproperties=chinese_font)
+plt.text(14093.3, 72112.2, '青浦区', fontsize=9,fontproperties=chinese_font)
+plt.text(60230.3, 89250.4, '中心城区', fontsize=9,fontproperties=chinese_font)
+plt.text(84293.9, 76385.5, '浦东新区', fontsize=9,fontproperties=chinese_font)
+plt.text(36175.1, 61236.1, '松江区', fontsize=9,fontproperties=chinese_font)
+plt.text(60564.1, 73101, '闵行区', fontsize=9,fontproperties=chinese_font)
+plt.text(38811.8, 39813.3, '金山区', fontsize=9,fontproperties=chinese_font)
+plt.text(68803.6, 49700.7, '奉贤区', fontsize=9,fontproperties=chinese_font)
 #map.readshapefile(shapefile='/Users/hsw/Downloads/shanghai_shp/Shanghai_county',name='1', drawbounds=True, linewidth=0.5, color='red', default_encoding='UTF-8')
 
 if findwarn == "":
     findwarn = "最高"
-plt.title('上海市实时分区预警信号分布图\n'+findwarn+'预警信号级别落区\n' + '更新时间:' + time.strftime('%Y年%m月%d日 %H时%M分%S秒',time.localtime(time.time())))
-plt.show()
+plt.title('上海市实时分区预警信号分布图\n'+findwarn+'预警信号级别落区\n' + '更新时间:' + time.strftime('%Y年%m月%d日 %H时%M分%S秒',time.localtime(time.time())),fontproperties=chinese_font)
+plt.savefig('/home/weather/hsefz_server/weather_map/diagrams/alert.png',dpi=100)
