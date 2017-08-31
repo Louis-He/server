@@ -122,8 +122,9 @@ def getalarm():
         shanghai.append(o['name'])
         warninfo.append(o['htmlword'])
 
+
+
     def analyzecolor(warnlist):
-        global fqcolor
         #print(warnlist)
         max = 0
         for i in warnlist:
@@ -138,7 +139,6 @@ def getalarm():
             #print(i, max)
         fqcolor.append(max)
 
-
     fqcolor = []
     analyzecolor(shanghai)
     analyzecolor(chongming)
@@ -150,6 +150,7 @@ def getalarm():
     analyzecolor(pudong)
     analyzecolor(jinshan)
     analyzecolor(fengxian)
+
     print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] DATA ANALYSIS COMPLETE')
 
     for i in range(0,len(shanghai)):
