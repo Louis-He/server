@@ -23,10 +23,13 @@ chinese_font = FontProperties(fname='/home/weather/hsefz_server/program_font/sim
 notify = False
 latestwarn = []
 emaillist = []
+alarmflag = [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 
 def getalarm():
     global notify
     global latestwarn
+    global alarmflag
+
     #http://182.254.214.114/wxapp/jsondata/fqwarnlist.js
     # ============================================get realtime alerts
     data = urllib.request.urlopen('http://182.254.214.114/wxapp/jsondata/fqwarnlist.js').read()
@@ -53,10 +56,8 @@ def getalarm():
     print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] RAW DATA JSON ANALYSIS COMPLETE')
     # ============================================analyze district warning
 
-    warning_flag = [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-
     warninfo = []
-    alarmflag = []#existing alarms
+    alarmflag = [0,0,0,0,0,0,0,0,0,0,0,0,0,0]#existing alarms
 
     shanghai = []
     chongming = []
