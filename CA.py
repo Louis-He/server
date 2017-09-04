@@ -102,7 +102,7 @@ def timer(n):
         print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] PROGRAM SLEEP')
 
 print ('[' + time.strftime('%Y-%m-%d %X',time.localtime()) + '] PROGRAM START')
-timer(43200)
+timer(43195)
 '''
 # ============================================ # process weather data
 weather = []
