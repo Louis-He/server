@@ -75,7 +75,7 @@ def getweather():
             result = result + 'Next 24 Hours Forecast\n'
         if i == 2:
             result = result + '\nMedium Range Forecast\n'
-        result = result + time[i] + ': ' + weather[i] + '\n'
+        result = result + time[i] + ': ' + weather[i] + '\n\n'
 
     result = result + '\n\n***********************\nThis Message Was Sent Directly From Server\n<PLEASE DO NOT REPLY!>'
     print(result)
