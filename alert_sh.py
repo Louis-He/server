@@ -36,7 +36,7 @@ def getalarm():
     print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] RAW DATA INPUT COMPLETE')
 
     record = data.decode('UTF-8')
-    #print(record)
+    print('DEBUG PURPOSE: ',record)
     record=record.replace('[市预警发布中心]','「市预警发布中心」')
 
     fqwarn = record[record.index('=[')+1:record.index(']')+1]

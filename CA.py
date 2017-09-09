@@ -23,6 +23,8 @@ from PIL import Image,ImageDraw,ImageFont
 from matplotlib.font_manager import FontProperties
 #chinese_font = FontProperties(fname='/home/weather/hsefz_server/program_font/simhei.ttf')
 
+emaillist = []
+
 def getweather():
     url = 'http://dd.weather.gc.ca/citypage_weather/xml/ON/s0000458_e.xml'
     xml = (requests.get(url).text)
@@ -84,11 +86,25 @@ def getweather():
     f.write(result)
     f.close()
 
+def getemaillist():
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] GET EMAIL LIST')
+    global emaillist
+    file = "/home/weather/hsefz_server/secret/CAmailto.txt"
+    fh = open(file)
+    for line in fh:
+        info = line.split()
+        emailaddress = info[0]
+        emaillist.append(emailaddress)
+        print('target_email: '+emailaddress)
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] GET EMAIL LIST COMPLETE')
 
 def sendemail():
+    global emaillist
     print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] SEND EMAIL START')
-    os.system('mutt -s "Toronto_Weather" -- 1726110778@qq.com < mailtext/CAtext.txt')
-    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] EMAIL TO 1726110778@qq.com SEND COMPLETE')
+    for i in emaillist:
+        os.system('mutt -s "Toronto_Weather" -- ' + i + ' < mailtext/CAtext.txt')
+        print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] EMAIL TO ' + i + ' SEND COMPLETE')
+    print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] ALL EMAILS WERE SENT COMPLETE')
 
 def timer(n):
     ''''' 
@@ -102,6 +118,7 @@ def timer(n):
         print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] PROGRAM SLEEP')
 
 print ('[' + time.strftime('%Y-%m-%d %X',time.localtime()) + '] PROGRAM START')
+getemaillist()
 timer(43195)
 '''
 # ============================================ # process weather data
