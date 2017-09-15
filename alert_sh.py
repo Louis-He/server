@@ -29,6 +29,17 @@ def getalarm():
     global notify
     global latestwarn
     global alarmflag
+    global shanghai
+    global chongming
+    global baoshan
+    global jiading
+    global qingpu
+    global songjiang
+    global minhang
+    global pudong
+    global jinshan
+    global fengxian
+    global latestwarn
 
     #http://182.254.214.114/wxapp/jsondata/fqwarnlist.js
     # ============================================get realtime alerts
@@ -57,8 +68,7 @@ def getalarm():
     # ============================================analyze district warning
 
     warninfo = []
-    alarmflag = [0,0,0,0,0,0,0,0,0,0,0,0,0,0]#existing alarms
-
+    alarmflag = [0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     shanghai = []
     chongming = []
     baoshan = []
@@ -124,33 +134,32 @@ def getalarm():
         warninfo.append(o['htmlword'])
 
 
-
-def analyzecolor(warnlist):
-    global fqcolor
-    global shanghai
-    global chongming
-    global baoshan
-    global jiading
-    global qingpu
-    global songjiang
-    global minhang
-    global pudong
-    global jinshan
-    global fengxian
-    global latestwarn
-    #print(warnlist)
-    max = 0
-    for i in warnlist:
-        if '蓝色' in i and max == 0:
-            max = 1
-        if '黄色' in i and max <= 1:
-            max = 2
-        if '橙色' in i and max <= 2:
-            max = 3
-        if '红色' in i and max <= 3:
-            max = 4
-        #print(i, max)
-    fqcolor.append(max)
+    def analyzecolor(warnlist):
+        global fqcolor
+        global shanghai
+        global chongming
+        global baoshan
+        global jiading
+        global qingpu
+        global songjiang
+        global minhang
+        global pudong
+        global jinshan
+        global fengxian
+        global latestwarn
+        #print(warnlist)
+        max = 0
+        for i in warnlist:
+            if '蓝色' in i and max == 0:
+                max = 1
+            if '黄色' in i and max <= 1:
+                max = 2
+            if '橙色' in i and max <= 2:
+                max = 3
+            if '红色' in i and max <= 3:
+                max = 4
+            #print(i, max)
+        fqcolor.append(max)
 
     fqcolor = []
     analyzecolor(shanghai)
