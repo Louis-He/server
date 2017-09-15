@@ -49,6 +49,7 @@ def getalarm():
     record = data.decode('UTF-8')
     #print('DEBUG PURPOSE: ',record)
     record=record.replace('[市预警发布中心]','「市预警发布中心」')
+    record = record.replace('<br>','\n')
 
     fqwarn = record[record.index('=[')+1:record.index(']')+1]
     record = record[record.index(']')+1:len(record)]
@@ -425,7 +426,7 @@ def plot():
     plt.text(68803.6, 49700.7, '奉贤区', fontsize=9,fontproperties=chinese_font)
     #map.readshapefile(shapefile='/Users/hsw/Downloads/shanghai_shp/Shanghai_county',name='1', drawbounds=True, linewidth=0.5, color='red', default_encoding='UTF-8')
 
-    plt.title('上海市实时分区预警信号分布图\n最搞预警信号级别落区\n' + '更新时间:' + time.strftime('%Y年%m月%d日 %H时%M分%S秒',time.localtime(time.time())),fontproperties=chinese_font)
+    plt.title('上海市实时分区预警信号分布图\n最高预警信号级别落区\n' + '更新时间:' + time.strftime('%Y年%m月%d日 %H时%M分%S秒',time.localtime(time.time())),fontproperties=chinese_font)
     plt.savefig('/home/weather/hsefz_server/weather_map/diagrams/alert.png',dpi=100)
     print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] PLOT COMPLETE')
 
