@@ -36,7 +36,7 @@ def getalarm():
     print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] RAW DATA INPUT COMPLETE')
 
     record = data.decode('UTF-8')
-    print('DEBUG PURPOSE: ',record)
+    #print('DEBUG PURPOSE: ',record)
     record=record.replace('[市预警发布中心]','「市预警发布中心」')
 
     fqwarn = record[record.index('=[')+1:record.index(']')+1]
@@ -178,13 +178,14 @@ def getalarm():
     if notify:
         print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] ALARM CONDITION UPDATE! ALARMS SHOWED BELOW:')
         print(shanghai)
-        #plot()
+        plot()
         sendemail()
 
     notify = False
     #print(fqcolor)
 
 def plot():
+    global fqcolor
     # ============================================initialize the plot
     print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] INITIALIZE THE PLOT')
     plt.figure(figsize=(5, 6), dpi=120)
