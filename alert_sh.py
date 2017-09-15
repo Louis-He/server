@@ -155,7 +155,7 @@ def getalarm():
     print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] DATA ANALYSIS COMPLETE')
 
     for i in range(0,len(shanghai)):
-        if i > len(latestwarn) or shanghai[i] != latestwarn[i]:
+        if i > len(latestwarn)-1 or shanghai[i] != latestwarn[i]:
             notify = True
 
     latestwarn = shanghai
