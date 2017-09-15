@@ -19,7 +19,7 @@ import time
 from matplotlib.font_manager import FontProperties
 chinese_font = FontProperties(fname='/home/weather/hsefz_server/program_font/simhei.ttf')
 
-
+fqcolor = []
 notify = False
 latestwarn = []
 emaillist = []
@@ -125,20 +125,32 @@ def getalarm():
 
 
 
-    def analyzecolor(warnlist):
-        #print(warnlist)
-        max = 0
-        for i in warnlist:
-            if '蓝色' in i and max == 0:
-                max = 1
-            if '黄色' in i and max <= 1:
-                max = 2
-            if '橙色' in i and max <= 2:
-                max = 3
-            if '红色' in i and max <= 3:
-                max = 4
-            #print(i, max)
-        fqcolor.append(max)
+def analyzecolor(warnlist):
+    global fqcolor
+    global shanghai
+    global chongming
+    global baoshan
+    global jiading
+    global qingpu
+    global songjiang
+    global minhang
+    global pudong
+    global jinshan
+    global fengxian
+    global latestwarn
+    #print(warnlist)
+    max = 0
+    for i in warnlist:
+        if '蓝色' in i and max == 0:
+            max = 1
+        if '黄色' in i and max <= 1:
+            max = 2
+        if '橙色' in i and max <= 2:
+            max = 3
+        if '红色' in i and max <= 3:
+            max = 4
+        #print(i, max)
+    fqcolor.append(max)
 
     fqcolor = []
     analyzecolor(shanghai)
