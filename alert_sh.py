@@ -178,7 +178,7 @@ def getalarm():
     if notify:
         print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] ALARM CONDITION UPDATE! ALARMS SHOWED BELOW:')
         print(shanghai)
-        plot()
+        #plot()
         sendemail()
 
     notify = False
