@@ -176,8 +176,11 @@ def getalarm():
 
     print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] DATA ANALYSIS COMPLETE')
 
+    if len(latestwarn) != len(shanghai):
+        notify = True
+
     for i in range(0,len(shanghai)):
-        if i > len(latestwarn)-1 or shanghai[i] != latestwarn[i]:
+        if shanghai[i] != latestwarn[i]:
             notify = True
 
     latestwarn = shanghai
@@ -188,6 +191,11 @@ def getalarm():
     for i in range(0,len(shanghai)):
         f = open("/home/weather/hsefz_server/weather_map/mailtext/text.txt", "a+")
         f.write('[市预警发布中心]上海市中心气象台发布'+shanghai[0]+'预警信号：\n'+warninfo[0]+'\n\n')
+        f.close()
+
+    if len(shanghai) == 0 and notify == True:
+        f = open("/home/weather/hsefz_server/weather_map/mailtext/text.txt", "a+")
+        f.write('[市预警发布中心]上海市中心气象台解除所有预警信号')
         f.close()
 
     f = open("/home/weather/hsefz_server/weather_map/mailtext/text.txt", "a+")
