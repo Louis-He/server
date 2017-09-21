@@ -464,7 +464,10 @@ def timer(n):
     '''
     while True:
         print ('[' + time.strftime('%Y-%m-%d %X',time.localtime()) + '] CYCLE START')
-        getalarm()  # 此处为要执行的任务
+        try:
+            getalarm()  # 此处为要执行的任务
+        except:
+            print('ERR01#: CYCLE ENDED DUE TO UNKNOWN ERROR')
         time.sleep(n)
         print('[' + time.strftime('%Y-%m-%d %X', time.localtime()) + '] PROGRAM SLEEP')
 
